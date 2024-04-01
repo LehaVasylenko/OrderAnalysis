@@ -1,0 +1,215 @@
+2024-03-22 11:55:54 INFO  Configurator:75 - log4j.properties file already exists.
+2024-03-22 11:59:00 INFO  Configurator:75 - log4j.properties file already exists.
+2024-03-22 11:59:53 INFO  Configurator:75 - log4j.properties file already exists.
+2024-03-22 12:04:07 INFO  Configurator:75 - log4j.properties file already exists.
+2024-03-22 12:04:40 INFO  Configurator:75 - log4j.properties file already exists.
+2024-03-22 12:05:36 INFO  Configurator:75 - log4j.properties file already exists.
+2024-03-22 15:51:50 INFO  Configurator:75 - log4j.properties file already exists.
+2024-03-22 15:52:49 INFO  Configurator:75 - log4j.properties file already exists.
+2024-03-22 15:54:10 INFO  Configurator:75 - log4j.properties file already exists.
+2024-03-22 15:55:25 INFO  Configurator:75 - log4j.properties file already exists.
+2024-03-22 16:57:32 INFO  Configurator:75 - log4j.properties file already exists.
+2024-03-22 17:03:44 INFO  Configurator:75 - log4j.properties file already exists.
+2024-03-22 17:08:54 INFO  Configurator:75 - log4j.properties file already exists.
+2024-03-22 17:35:13 INFO  Configurator:75 - log4j.properties file already exists.
+2024-03-22 17:37:37 INFO  Configurator:75 - log4j.properties file already exists.
+2024-03-22 17:53:16 INFO  Configurator:75 - log4j.properties file already exists.
+2024-03-22 17:56:59 INFO  Configurator:75 - log4j.properties file already exists.
+2024-03-22 18:01:18 INFO  Configurator:75 - log4j.properties file already exists.
+2024-03-22 18:01:41 INFO  Configurator:75 - log4j.properties file already exists.
+2024-03-22 18:04:15 INFO  Configurator:75 - log4j.properties file already exists.
+2024-03-22 18:19:10 INFO  Configurator:75 - log4j.properties file already exists.
+2024-03-22 18:20:02 INFO  Configurator:75 - log4j.properties file already exists.
+2024-03-22 18:24:44 INFO  Configurator:75 - log4j.properties file already exists.
+2024-03-22 18:27:51 INFO  Configurator:75 - log4j.properties file already exists.
+2024-03-22 19:39:37 INFO  Configurator:75 - log4j.properties file already exists.
+2024-03-25 18:20:02 INFO  SFTP:71 - File {
+	shopId: 1234715
+	priceTime: 1711378966000
+	priceList: null
+}
+ downloaded successfully!
+2024-03-25 18:20:03 INFO  SFTP:71 - File {
+	shopId: 563585
+	priceTime: 1711383236000
+	priceList: null
+}
+ downloaded successfully!
+2024-03-25 18:20:03 ERROR TarGZ:36 - Error decompressing  null
+2024-03-25 18:20:03 ERROR TarGZ:36 - Error decompressing  null
+2024-03-25 18:20:03 ERROR SftpManager:48 - Error reading 1234715
+2024-03-25 18:20:03 ERROR SftpManager:48 - Error reading 563585
+2024-03-25 18:20:03 ERROR FileEraser:28 - Error deleting the file: C:\Users\oleksii.vasylenko\OneDrive - Proximaresearch International LLC\Документи\IdeaProjects\Proxima.v.3.0\pricesArchieves.gz
+2024-03-25 18:20:03 ERROR FileEraser:28 - Error deleting the file: C:\Users\oleksii.vasylenko\OneDrive - Proximaresearch International LLC\Документи\IdeaProjects\Proxima.v.3.0\pricesArchieves.gz
+2024-03-25 18:23:02 INFO  SFTP:71 - File {
+	shopId: 1234715
+	priceTime: 1711378966000
+	priceList: null
+}
+ downloaded successfully!
+2024-03-25 18:23:03 INFO  SFTP:71 - File {
+	shopId: 563585
+	priceTime: 1711383236000
+	priceList: null
+}
+ downloaded successfully!
+2024-03-25 18:23:03 ERROR TarGZ:36 - Error decompressing  null
+2024-03-25 18:23:03 ERROR TarGZ:36 - Error decompressing  null
+2024-03-25 18:23:03 ERROR SftpManager:48 - Error reading 1234715
+2024-03-25 18:23:03 ERROR SftpManager:48 - Error reading 563585
+2024-03-25 18:23:03 ERROR FileEraser:28 - Error deleting the file: C:\Users\oleksii.vasylenko\OneDrive - Proximaresearch International LLC\Документи\IdeaProjects\Proxima.v.3.0\pricesArchieves.gz
+2024-03-25 18:23:03 ERROR FileEraser:28 - Error deleting the file: C:\Users\oleksii.vasylenko\OneDrive - Proximaresearch International LLC\Документи\IdeaProjects\Proxima.v.3.0\pricesArchieves.gz
+2024-03-25 18:24:57 INFO  SFTP:71 - File {
+	shopId: 1234715
+	priceTime: 1711378966000
+	priceList: null
+}
+ downloaded successfully!
+2024-03-25 18:24:57 INFO  SFTP:71 - File {
+	shopId: 563585
+	priceTime: 1711383236000
+	priceList: null
+}
+ downloaded successfully!
+2024-03-25 18:24:57 ERROR TarGZ:36 - Error decompressing  null
+2024-03-25 18:24:57 ERROR TarGZ:36 - Error decompressing  null
+2024-03-25 18:24:58 ERROR SftpManager:48 - Error reading 1234715
+2024-03-25 18:24:58 ERROR SftpManager:48 - Error reading 563585
+2024-03-25 18:24:58 ERROR FileEraser:28 - Error deleting the file: C:\Users\oleksii.vasylenko\OneDrive - Proximaresearch International LLC\Документи\IdeaProjects\Proxima.v.3.0\pricesArchieves.gz
+2024-03-25 18:24:58 ERROR FileEraser:28 - Error deleting the file: C:\Users\oleksii.vasylenko\OneDrive - Proximaresearch International LLC\Документи\IdeaProjects\Proxima.v.3.0\pricesArchieves.gz
+2024-03-25 18:26:17 INFO  SFTP:71 - File 1234715 downloaded successfully!
+2024-03-25 18:26:18 INFO  SFTP:71 - File 563585 downloaded successfully!
+2024-03-25 18:26:18 ERROR TarGZ:36 - Error decompressing  null
+2024-03-25 18:26:18 ERROR TarGZ:36 - Error decompressing  null
+2024-03-25 18:26:18 ERROR SftpManager:48 - Error reading 1234715
+2024-03-25 18:26:18 ERROR SftpManager:48 - Error reading 563585
+2024-03-25 18:26:18 ERROR FileEraser:28 - Error deleting the file: C:\Users\oleksii.vasylenko\OneDrive - Proximaresearch International LLC\Документи\IdeaProjects\Proxima.v.3.0\pricesArchieves.gz
+2024-03-25 18:26:18 ERROR FileEraser:28 - Error deleting the file: C:\Users\oleksii.vasylenko\OneDrive - Proximaresearch International LLC\Документи\IdeaProjects\Proxima.v.3.0\pricesArchieves.gz
+2024-03-25 18:27:49 INFO  SFTP:71 - File 1234715 downloaded successfully!
+2024-03-25 18:27:50 INFO  SFTP:71 - File 563585 downloaded successfully!
+2024-03-25 18:27:50 ERROR TarGZ:36 - Error decompressing  null
+2024-03-25 18:27:50 ERROR TarGZ:36 - Error decompressing  null
+2024-03-25 18:27:50 ERROR SftpManager:48 - Error reading 1234715
+2024-03-25 18:27:50 ERROR SftpManager:48 - Error reading 563585
+2024-03-25 18:27:50 ERROR FileEraser:28 - Error deleting the file: C:\Users\oleksii.vasylenko\OneDrive - Proximaresearch International LLC\Документи\IdeaProjects\Proxima.v.3.0\pricesArchieves.gz
+2024-03-25 18:27:50 ERROR FileEraser:28 - Error deleting the file: C:\Users\oleksii.vasylenko\OneDrive - Proximaresearch International LLC\Документи\IdeaProjects\Proxima.v.3.0\pricesArchieves.gz
+2024-03-25 18:28:50 INFO  SFTP:71 - File 1234715 downloaded successfully!
+2024-03-25 18:28:51 INFO  SFTP:71 - File 563585 downloaded successfully!
+2024-03-25 18:28:51 ERROR TarGZ:36 - Error decompressing  null
+2024-03-25 18:28:51 ERROR TarGZ:36 - Error decompressing  null
+2024-03-25 18:28:51 ERROR SftpManager:48 - Error reading 1234715
+2024-03-25 18:28:51 ERROR SftpManager:48 - Error reading 563585
+2024-03-25 18:28:51 ERROR FileEraser:28 - Error deleting the file: C:\Users\oleksii.vasylenko\OneDrive - Proximaresearch International LLC\Документи\IdeaProjects\Proxima.v.3.0\pricesArchieves.gz
+2024-03-25 18:28:51 ERROR FileEraser:28 - Error deleting the file: C:\Users\oleksii.vasylenko\OneDrive - Proximaresearch International LLC\Документи\IdeaProjects\Proxima.v.3.0\pricesArchieves.gz
+2024-03-25 18:32:33 INFO  SFTP:71 - File 1234715 downloaded successfully!
+2024-03-25 18:32:33 INFO  SFTP:71 - File 563585 downloaded successfully!
+2024-03-25 18:32:33 ERROR TarGZ:36 - Error decompressing  C:\Users\oleksii.vasylenko\OneDrive - Proximaresearch International LLC\Документи\IdeaProjects\Proxima.v.3.0\pricesArchieves\1234715.gz (The system cannot find the path specified)
+2024-03-25 18:32:33 ERROR TarGZ:36 - Error decompressing  C:\Users\oleksii.vasylenko\OneDrive - Proximaresearch International LLC\Документи\IdeaProjects\Proxima.v.3.0\pricesArchieves\563585.gz (The system cannot find the path specified)
+2024-03-25 18:32:34 ERROR SftpManager:48 - Error reading 1234715
+2024-03-25 18:32:34 ERROR SftpManager:48 - Error reading 563585
+2024-03-25 18:32:34 ERROR FileEraser:28 - Error deleting the file: C:\Users\oleksii.vasylenko\OneDrive - Proximaresearch International LLC\Документи\IdeaProjects\Proxima.v.3.0\pricesArchieves.gz
+2024-03-25 18:32:34 ERROR FileEraser:28 - Error deleting the file: C:\Users\oleksii.vasylenko\OneDrive - Proximaresearch International LLC\Документи\IdeaProjects\Proxima.v.3.0\pricesArchieves.gz
+2024-03-25 18:34:39 INFO  SFTP:71 - File 1234715 downloaded successfully!
+2024-03-25 18:34:39 INFO  SFTP:71 - File 563585 downloaded successfully!
+2024-03-25 18:34:39 INFO  TarGZ:34 - The file 1234715.gz was decompressed successfully!
+2024-03-25 18:34:39 INFO  TarGZ:34 - The file 563585.gz was decompressed successfully!
+2024-03-25 18:34:40 ERROR FileEraser:28 - Error deleting the file: C:\Users\oleksii.vasylenko\OneDrive - Proximaresearch International LLC\Документи\IdeaProjects\Proxima.v.3.0\pricesArchieves.gz
+2024-03-25 18:34:40 ERROR FileEraser:28 - Error deleting the file: C:\Users\oleksii.vasylenko\OneDrive - Proximaresearch International LLC\Документи\IdeaProjects\Proxima.v.3.0\pricesArchieves.gz
+2024-03-25 18:35:31 INFO  SFTP:71 - File 1234715 downloaded successfully!
+2024-03-25 18:35:32 INFO  SFTP:71 - File 563585 downloaded successfully!
+2024-03-25 18:35:32 INFO  TarGZ:34 - The file 1234715.gz was decompressed successfully!
+2024-03-25 18:35:32 INFO  TarGZ:34 - The file 563585.gz was decompressed successfully!
+2024-03-25 18:35:33 ERROR FileEraser:28 - Error deleting the file: C:\Users\oleksii.vasylenko\OneDrive - Proximaresearch International LLC\Документи\IdeaProjects\Proxima.v.3.0\pricesArchieves.gz
+2024-03-25 18:35:33 ERROR FileEraser:28 - Error deleting the file: C:\Users\oleksii.vasylenko\OneDrive - Proximaresearch International LLC\Документи\IdeaProjects\Proxima.v.3.0\pricesArchieves.gz
+2024-03-25 18:37:01 INFO  SFTP:71 - File 1234715 downloaded successfully!
+2024-03-25 18:37:02 INFO  SFTP:71 - File 563585 downloaded successfully!
+2024-03-25 18:37:02 INFO  TarGZ:34 - The file 1234715.gz was decompressed successfully!
+2024-03-25 18:37:02 INFO  TarGZ:34 - The file 563585.gz was decompressed successfully!
+2024-03-25 18:37:03 ERROR FileEraser:28 - Error deleting the file: C:\Users\oleksii.vasylenko\OneDrive - Proximaresearch International LLC\Документи\IdeaProjects\Proxima.v.3.0\pricesArchieves.gz
+2024-03-25 18:37:03 ERROR FileEraser:28 - Error deleting the file: C:\Users\oleksii.vasylenko\OneDrive - Proximaresearch International LLC\Документи\IdeaProjects\Proxima.v.3.0\pricesArchieves.gz
+2024-03-25 18:37:56 INFO  SFTP:71 - File 1234715 downloaded successfully!
+2024-03-25 18:37:56 INFO  SFTP:71 - File 563585 downloaded successfully!
+2024-03-25 18:37:56 INFO  TarGZ:34 - The file 1234715.gz was decompressed successfully!
+2024-03-25 18:37:56 INFO  TarGZ:34 - The file 563585.gz was decompressed successfully!
+2024-03-25 18:37:57 ERROR FileEraser:28 - Error deleting the file: C:\Users\oleksii.vasylenko\OneDrive - Proximaresearch International LLC\Документи\IdeaProjects\Proxima.v.3.0\pricesArchieves.gz
+2024-03-25 18:37:57 ERROR FileEraser:28 - Error deleting the file: C:\Users\oleksii.vasylenko\OneDrive - Proximaresearch International LLC\Документи\IdeaProjects\Proxima.v.3.0\pricesArchieves.gz
+2024-03-25 18:39:15 INFO  SFTP:71 - File 1234715 downloaded successfully!
+2024-03-25 18:39:15 INFO  SFTP:71 - File 563585 downloaded successfully!
+2024-03-25 18:39:15 INFO  TarGZ:34 - The file 1234715.gz was decompressed successfully!
+2024-03-25 18:39:15 INFO  TarGZ:34 - The file 563585.gz was decompressed successfully!
+2024-03-25 18:39:16 ERROR FileEraser:28 - Error deleting the file: C:\Users\oleksii.vasylenko\OneDrive - Proximaresearch International LLC\Документи\IdeaProjects\Proxima.v.3.0\pricesArchieves.gz
+2024-03-25 18:39:16 ERROR FileEraser:28 - Error deleting the file: C:\Users\oleksii.vasylenko\OneDrive - Proximaresearch International LLC\Документи\IdeaProjects\Proxima.v.3.0\pricesArchieves.gz
+2024-03-25 18:39:45 INFO  SFTP:71 - File 1234715 downloaded successfully!
+2024-03-25 18:39:46 INFO  SFTP:71 - File 563585 downloaded successfully!
+2024-03-25 18:39:46 INFO  TarGZ:34 - The file 1234715.gz was decompressed successfully!
+2024-03-25 18:39:46 INFO  TarGZ:34 - The file 563585.gz was decompressed successfully!
+2024-03-25 18:39:46 ERROR FileEraser:28 - Error deleting the file: C:\Users\oleksii.vasylenko\OneDrive - Proximaresearch International LLC\Документи\IdeaProjects\Proxima.v.3.0\pricesArchieves.gz
+2024-03-25 18:39:46 ERROR FileEraser:28 - Error deleting the file: C:\Users\oleksii.vasylenko\OneDrive - Proximaresearch International LLC\Документи\IdeaProjects\Proxima.v.3.0\pricesArchieves.gz
+2024-03-25 18:41:09 INFO  SFTP:71 - File 1234715 downloaded successfully!
+2024-03-25 18:41:10 INFO  SFTP:71 - File 563585 downloaded successfully!
+2024-03-25 18:41:10 INFO  TarGZ:34 - The file 1234715.gz was decompressed successfully!
+2024-03-25 18:41:10 INFO  TarGZ:34 - The file 563585.gz was decompressed successfully!
+2024-03-25 18:41:10 ERROR FileEraser:28 - Error deleting the file: C:\Users\oleksii.vasylenko\OneDrive - Proximaresearch International LLC\Документи\IdeaProjects\Proxima.v.3.0\pricesArchieves.gz
+2024-03-25 18:41:10 ERROR FileEraser:28 - Error deleting the file: C:\Users\oleksii.vasylenko\OneDrive - Proximaresearch International LLC\Документи\IdeaProjects\Proxima.v.3.0\pricesArchieves.gz
+2024-03-25 18:47:19 INFO  SFTP:71 - File 1234715 downloaded successfully!
+2024-03-25 18:47:20 INFO  SFTP:71 - File 563585 downloaded successfully!
+2024-03-25 18:47:20 INFO  TarGZ:34 - The file 1234715.gz was decompressed successfully!
+2024-03-25 18:47:20 INFO  TarGZ:34 - The file 563585.gz was decompressed successfully!
+2024-03-25 18:47:20 ERROR FileEraser:31 - Error deleting the file: C:\Users\oleksii.vasylenko\OneDrive - Proximaresearch International LLC\Документи\IdeaProjects\Proxima.v.3.0\pricesArchieves.gz
+2024-03-25 18:47:20 ERROR FileEraser:31 - Error deleting the file: C:\Users\oleksii.vasylenko\OneDrive - Proximaresearch International LLC\Документи\IdeaProjects\Proxima.v.3.0\pricesArchieves.gz
+2024-03-25 18:47:50 INFO  SFTP:71 - File 1234715 downloaded successfully!
+2024-03-25 18:47:50 INFO  SFTP:71 - File 563585 downloaded successfully!
+2024-03-25 18:47:50 INFO  TarGZ:34 - The file 1234715.gz was decompressed successfully!
+2024-03-25 18:47:50 INFO  TarGZ:34 - The file 563585.gz was decompressed successfully!
+2024-03-25 18:47:51 ERROR FileEraser:31 - Error deleting the file: C:\Users\oleksii.vasylenko\OneDrive - Proximaresearch International LLC\Документи\IdeaProjects\Proxima.v.3.0\pricesArchieves.gz
+2024-03-25 18:47:51 ERROR FileEraser:31 - Error deleting the file: C:\Users\oleksii.vasylenko\OneDrive - Proximaresearch International LLC\Документи\IdeaProjects\Proxima.v.3.0\pricesArchieves.gz
+2024-03-25 18:52:28 INFO  SFTP:71 - File 1234715 downloaded successfully!
+2024-03-25 18:52:28 INFO  SFTP:71 - File 563585 downloaded successfully!
+2024-03-25 18:52:28 INFO  TarGZ:34 - The file 1234715.gz was decompressed successfully!
+2024-03-25 18:52:28 INFO  TarGZ:34 - The file 563585.gz was decompressed successfully!
+2024-03-25 18:52:29 ERROR FileEraser:28 - Error deleting the file: C:\Users\oleksii.vasylenko\OneDrive - Proximaresearch International LLC\Документи\IdeaProjects\Proxima.v.3.0\pricesArchieves\.gz
+2024-03-25 18:52:29 ERROR FileEraser:28 - Error deleting the file: C:\Users\oleksii.vasylenko\OneDrive - Proximaresearch International LLC\Документи\IdeaProjects\Proxima.v.3.0\pricesArchieves\.gz
+2024-03-25 18:53:56 INFO  SFTP:71 - File 1234715 downloaded successfully!
+2024-03-25 18:53:56 INFO  SFTP:71 - File 563585 downloaded successfully!
+2024-03-25 18:53:56 INFO  TarGZ:34 - The file 1234715.gz was decompressed successfully!
+2024-03-25 18:53:56 INFO  TarGZ:34 - The file 563585.gz was decompressed successfully!
+2024-03-25 18:53:57 ERROR FileEraser:28 - Error deleting the file: pricesArchieves\.gz
+2024-03-25 18:53:57 ERROR FileEraser:28 - Error deleting the file: pricesArchieves\.gz
+2024-03-25 18:54:31 INFO  SFTP:71 - File 1234715 downloaded successfully!
+2024-03-25 18:54:31 INFO  SFTP:71 - File 563585 downloaded successfully!
+2024-03-25 18:54:31 INFO  TarGZ:34 - The file 1234715.gz was decompressed successfully!
+2024-03-25 18:54:31 INFO  TarGZ:34 - The file 563585.gz was decompressed successfully!
+2024-03-25 18:54:32 INFO  FileEraser:26 - File 1234715 deleted successfully.
+2024-03-25 18:54:32 INFO  FileEraser:26 - File 563585 deleted successfully.
+2024-03-25 20:04:51 INFO  SFTP:71 - File 1234715 downloaded successfully!
+2024-03-25 20:04:51 INFO  SFTP:71 - File 563585 downloaded successfully!
+2024-03-25 20:04:51 INFO  TarGZ:34 - The file 1234715.gz was decompressed successfully!
+2024-03-25 20:04:51 INFO  TarGZ:34 - The file 563585.gz was decompressed successfully!
+2024-03-25 20:04:52 INFO  FileEraser:22 - File 1234715 deleted successfully.
+2024-03-25 20:04:52 INFO  FileEraser:22 - File 563585 deleted successfully.
+2024-03-25 20:04:58 INFO  Configurator:75 - log4j.properties file already exists.
+2024-03-26 15:40:36 INFO  Configurator:75 - log4j.properties file already exists.
+2024-03-26 15:48:16 INFO  Configurator:75 - log4j.properties file already exists.
+2024-03-27 10:30:09 INFO  DrugsInfoMany:51 - Фортранс®  порошок для орального раствора пакетик 73.69 г , №4, Лаборатории Майоли Спиндлер
+2024-03-27 10:30:54 INFO  DrugsInfoMany:51 - Фортранс®  порошок для орального раствора пакетик 73.69 г , №4, Лаборатории Майоли Спиндлер
+2024-03-27 14:36:19 INFO  Configurator:75 - log4j.properties file already exists.
+2024-03-27 14:50:17 INFO  Configurator:75 - log4j.properties file already exists.
+2024-03-27 15:13:03 INFO  Configurator:75 - log4j.properties file already exists.
+2024-03-27 15:22:36 INFO  Configurator:75 - log4j.properties file already exists.
+2024-03-27 15:32:55 INFO  Configurator:75 - log4j.properties file already exists.
+2024-03-27 15:49:34 INFO  Configurator:75 - log4j.properties file already exists.
+2024-03-27 15:59:29 INFO  Configurator:75 - log4j.properties file already exists.
+2024-03-27 17:33:56 INFO  Configurator:75 - log4j.properties file already exists.
+2024-03-27 17:50:31 INFO  Configurator:75 - log4j.properties file already exists.
+2024-03-27 18:05:01 INFO  Configurator:75 - log4j.properties file already exists.
+2024-03-27 18:16:16 INFO  Configurator:75 - log4j.properties file already exists.
+2024-03-27 19:06:58 INFO  Configurator:75 - log4j.properties file already exists.
+2024-03-27 19:35:50 INFO  Configurator:75 - log4j.properties file already exists.
+2024-03-27 20:03:40 INFO  Configurator:75 - log4j.properties file already exists.
+2024-03-27 20:37:29 INFO  Configurator:75 - log4j.properties file already exists.
+2024-03-27 21:13:03 INFO  Configurator:75 - log4j.properties file already exists.
+2024-03-27 21:47:07 INFO  Configurator:75 - log4j.properties file already exists.
+2024-03-28 11:31:00 INFO  Configurator:75 - log4j.properties file already exists.
+2024-03-29 12:26:09 INFO  Configurator:75 - log4j.properties file already exists.
+2024-03-29 12:35:38 INFO  Configurator:75 - log4j.properties file already exists.
+2024-04-01 11:13:22 INFO  Configurator:75 - log4j.properties file already exists.

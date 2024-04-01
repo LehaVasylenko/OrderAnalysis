@@ -1,0 +1,382 @@
+2024-03-28 11:31:00 INFO  GetOrders:46 - Start Date: 2024-03-25
+2024-03-28 11:31:00 INFO  GetOrders:47 - End Date: 2024-03-28
+2024-03-28 11:31:08 INFO  GetOrders:91 - Orders number: 1247
+2024-03-28 11:31:08 INFO  GetOrders:92 - Unique orders number: 1020
+2024-03-28 11:31:08 INFO  OrdersFiles:66 - 984 elements successfully read from file C:\Users\oleksii.vasylenko\OneDrive - Proximaresearch International LLC\Документи\IdeaProjects\Proxima.v.3.0\orders\ignored.json
+2024-03-28 11:31:08 INFO  OrdersFiles:66 - 213 elements successfully read from file C:\Users\oleksii.vasylenko\OneDrive - Proximaresearch International LLC\Документи\IdeaProjects\Proxima.v.3.0\orders\valid.json
+2024-03-28 11:31:08 INFO  GetOrders:110 - Final orders number: 286
+2024-03-28 11:31:09 INFO  OrderFilter:168 - 0:286:240327-316141: pickup: Confirmed received at 27.03 - 11:59:21
+2024-03-28 11:31:10 INFO  OrderFilter:168 - 1:286:240324-023452: optima: Confirmed received at 26.03 - 13:31:31
+2024-03-28 11:31:11 INFO  OrderFilter:168 - 2:286:240327-808158: pickup: Confirmed received at 27.03 - 18:58:03
+2024-03-28 11:31:11 INFO  OrderFilter:154 - 3:286:240327-515623: pickup: Completed received at 28.03 - 10:59:22
+2024-03-28 11:31:12 INFO  OrderFilter:168 - 4:286:240328-854570: pickup: Confirmed received at 28.03 - 06:42:03
+2024-03-28 11:31:13 INFO  OrderFilter:168 - 5:286:240327-830881: pickup: Confirmed received at 27.03 - 17:12:40
+2024-03-28 11:31:14 INFO  OrderFilter:154 - 6:286:240328-825573: pickup: Completed received at 28.03 - 11:12:44
+2024-03-28 11:31:14 INFO  OrderFilter:168 - 7:286:240328-505423: pickup: Confirmed received at 28.03 - 11:17:48
+2024-03-28 11:31:15 INFO  OrderFilter:168 - 8:286:240327-717821: pickup: Confirmed received at 27.03 - 12:24:05
+2024-03-28 11:31:16 INFO  OrderFilter:154 - 9:286:240328-760721: pickup: Completed received at 28.03 - 10:24:01
+2024-03-28 11:31:17 INFO  OrderFilter:168 - 10:286:240326-511415: pickup: Confirmed received at 26.03 - 12:54:03
+2024-03-28 11:31:17 INFO  OrderFilter:154 - 11:286:240327-626017: pickup: Completed received at 28.03 - 10:54:00
+2024-03-28 11:31:18 INFO  OrderFilter:168 - 12:286:240327-553336: pickup: Confirmed received at 28.03 - 08:13:07
+2024-03-28 11:31:19 INFO  OrderFilter:168 - 13:286:240327-388781: pickup: Confirmed received at 27.03 - 19:05:11
+2024-03-28 11:31:20 INFO  OrderFilter:168 - 14:286:240327-165412: pickup: Confirmed received at 27.03 - 16:21:33
+2024-03-28 11:31:21 INFO  OrderFilter:168 - 15:286:240326-814567: pickup: Confirmed received at 26.03 - 13:22:02
+2024-03-28 11:31:21 INFO  OrderFilter:168 - 16:286:240326-483654: pickup: Confirmed received at 27.03 - 07:50:34
+2024-03-28 11:31:22 INFO  OrderFilter:168 - 17:286:240326-410618: pickup: Confirmed received at 26.03 - 14:05:59
+2024-03-28 11:31:23 INFO  OrderFilter:168 - 18:286:240327-285667: pickup: Confirmed received at 27.03 - 20:15:03
+2024-03-28 11:31:24 INFO  OrderFilter:168 - 19:286:240326-674610: optima: Packed received at 27.03 - 11:43:30
+2024-03-28 11:31:24 INFO  OrderFilter:168 - 20:286:240326-527102: pickup: Confirmed received at 26.03 - 20:16:41
+2024-03-28 11:31:25 INFO  OrderFilter:168 - 21:286:240326-131374: pickup: Confirmed received at 26.03 - 13:45:23
+2024-03-28 11:31:26 INFO  OrderFilter:154 - 22:286:240328-170742: pickup: Completed received at 28.03 - 11:14:03
+2024-03-28 11:31:26 INFO  OrderFilter:168 - 23:286:240327-336433: pickup: Confirmed received at 28.03 - 07:09:02
+2024-03-28 11:31:27 INFO  OrderFilter:154 - 24:286:240328-778151: pickup: Completed received at 28.03 - 11:19:02
+2024-03-28 11:31:28 INFO  OrderFilter:142 - 25:286:240325-741476: pickup: Canceled received at 28.03 - 07:37:02
+2024-03-28 11:31:30 INFO  GetShops:43 - ShowShops count: 18446
+2024-03-28 11:31:31 INFO  OrderFilter:154 - 26:286:240326-471560: pickup: Completed received at 28.03 - 09:00:03
+2024-03-28 11:31:31 INFO  OrderFilter:168 - 27:286:240326-665557: pickup: Confirmed received at 26.03 - 13:40:52
+2024-03-28 11:31:32 INFO  OrderFilter:168 - 28:286:240321-446526: pickup: Canceled received at 23.03 - 10:54:01
+2024-03-28 11:31:33 INFO  OrderFilter:168 - 29:286:240328-638175: pickup: Confirmed received at 28.03 - 09:13:58
+2024-03-28 11:31:33 INFO  OrderFilter:168 - 30:286:240327-621333: pickup: Confirmed received at 27.03 - 19:33:38
+2024-03-28 11:31:34 INFO  OrderFilter:168 - 31:286:240326-264316: pickup: Confirmed received at 26.03 - 13:57:50
+2024-03-28 11:31:35 INFO  OrderFilter:168 - 32:286:240327-812518: pickup: Confirmed received at 27.03 - 21:57:15
+2024-03-28 11:31:36 INFO  OrderFilter:168 - 33:286:240322-253417: optima: Confirmed received at 26.03 - 09:28:03
+2024-03-28 11:31:36 INFO  OrderFilter:168 - 34:286:240326-505683: optima: Confirmed received at 27.03 - 18:50:03
+2024-03-28 11:31:37 INFO  OrderFilter:168 - 35:286:240327-235757: pickup: Confirmed received at 27.03 - 17:00:04
+2024-03-28 11:31:38 INFO  OrderFilter:168 - 36:286:240325-284366: optima: Updated received at 25.03 - 09:09:04
+2024-03-28 11:31:38 INFO  OrderFilter:168 - 37:286:240327-265365: pickup: Confirmed received at 27.03 - 19:02:38
+2024-03-28 11:31:39 INFO  OrderFilter:168 - 38:286:240327-208571: pickup: Confirmed received at 27.03 - 20:49:19
+2024-03-28 11:31:40 INFO  OrderFilter:168 - 39:286:240322-506762: optima: Confirmed received at 25.03 - 15:31:05
+2024-03-28 11:31:40 INFO  OrderFilter:168 - 40:286:240327-305037: pickup: Confirmed received at 27.03 - 11:00:02
+2024-03-28 11:31:41 INFO  OrderFilter:168 - 41:286:240327-740176: pickup: Confirmed received at 27.03 - 14:23:03
+2024-03-28 11:31:42 INFO  OrderFilter:168 - 42:286:240326-471774: pickup: Confirmed received at 26.03 - 15:03:02
+2024-03-28 11:31:42 INFO  OrderFilter:168 - 43:286:240326-058412: pickup: Confirmed received at 26.03 - 20:16:40
+2024-03-28 11:31:43 INFO  OrderFilter:168 - 44:286:240326-387518: pickup: Confirmed received at 26.03 - 17:04:02
+2024-03-28 11:31:44 INFO  OrderFilter:168 - 45:286:240327-847068: pickup: Confirmed received at 27.03 - 19:33:00
+2024-03-28 11:31:45 INFO  OrderFilter:168 - 46:286:240325-532057: optima: Updated received at 25.03 - 14:55:05
+2024-03-28 11:31:45 INFO  OrderFilter:168 - 47:286:240321-807041: pickup: Canceled received at 23.03 - 12:16:27
+2024-03-28 11:31:46 INFO  OrderFilter:168 - 48:286:240327-165557: pickup: Confirmed received at 27.03 - 14:47:20
+2024-03-28 11:31:47 INFO  OrderFilter:168 - 49:286:240323-145346: optima: Accepted received at 23.03 - 22:40:47
+2024-03-28 11:31:47 INFO  OrderFilter:168 - 50:286:240327-881441: pickup: Confirmed received at 27.03 - 14:07:43
+2024-03-28 11:31:48 INFO  OrderFilter:168 - 51:286:240327-386160: pickup: Confirmed received at 27.03 - 06:58:03
+2024-03-28 11:31:49 INFO  OrderFilter:142 - 52:286:240325-631723: pickup: Canceled received at 28.03 - 07:43:05
+2024-03-28 11:31:50 INFO  OrderFilter:168 - 53:286:240326-018671: optima: Confirmed received at 27.03 - 12:40:03
+2024-03-28 11:31:50 INFO  OrderFilter:168 - 54:286:240328-658331: pickup: Confirmed received at 28.03 - 11:07:48
+2024-03-28 11:31:51 INFO  OrderFilter:168 - 55:286:240327-152378: pickup: Confirmed received at 27.03 - 12:17:17
+2024-03-28 11:31:52 INFO  OrderFilter:168 - 56:286:240327-084775: optima: Packed received at 27.03 - 11:14:29
+2024-03-28 11:31:52 INFO  OrderFilter:168 - 57:286:240327-820153: pickup: Confirmed received at 27.03 - 20:59:55
+2024-03-28 11:31:53 INFO  OrderFilter:154 - 58:286:240326-500774: pickup: Completed received at 28.03 - 09:00:03
+2024-03-28 11:31:54 INFO  OrderFilter:168 - 59:286:240327-501004: pickup: Confirmed received at 27.03 - 22:23:47
+2024-03-28 11:31:54 INFO  OrderFilter:168 - 60:286:240327-734850: optima: Updated received at 27.03 - 08:54:03
+2024-03-28 11:31:55 INFO  OrderFilter:168 - 61:286:240326-772238: pickup: Confirmed received at 27.03 - 07:54:31
+2024-03-28 11:31:56 INFO  OrderFilter:168 - 62:286:240327-257764: pickup: Confirmed received at 27.03 - 17:47:02
+2024-03-28 11:31:56 INFO  OrderFilter:168 - 63:286:240325-274446: optima: Confirmed received at 27.03 - 13:31:33
+2024-03-28 11:31:57 INFO  OrderFilter:142 - 64:286:240326-514377: pickup: Canceled received at 28.03 - 11:01:12
+2024-03-28 11:31:58 INFO  OrderFilter:142 - 65:286:240328-176751: pickup: Canceled received at 28.03 - 10:59:00
+2024-03-28 11:31:59 INFO  OrderFilter:168 - 66:286:240328-337282: pickup: Confirmed received at 28.03 - 10:01:03
+2024-03-28 11:31:59 INFO  OrderFilter:168 - 67:286:240326-317671: pickup: Confirmed received at 27.03 - 08:08:29
+2024-03-28 11:32:00 INFO  OrderFilter:142 - 68:286:240326-280063: pickup: Canceled received at 28.03 - 11:29:30
+2024-03-28 11:32:01 INFO  OrderFilter:154 - 69:286:240328-102448: pickup: Completed received at 28.03 - 10:36:02
+2024-03-28 11:32:01 INFO  OrderFilter:168 - 70:286:240328-434578: pickup: Confirmed received at 28.03 - 08:06:22
+2024-03-28 11:32:02 INFO  OrderFilter:168 - 71:286:240327-678204: optima: Packed received at 27.03 - 17:52:23
+2024-03-28 11:32:03 INFO  OrderFilter:168 - 72:286:240328-816382: optima: Updated received at 28.03 - 09:27:02
+2024-03-28 11:32:04 INFO  OrderFilter:168 - 73:286:240327-444810: pickup: Confirmed received at 27.03 - 16:14:58
+2024-03-28 11:32:05 INFO  OrderFilter:154 - 74:286:240328-682545: pickup: Completed received at 28.03 - 09:13:02
+2024-03-28 11:32:06 INFO  OrderFilter:168 - 75:286:240328-271500: pickup: Confirmed received at 28.03 - 08:00:19
+2024-03-28 11:32:07 INFO  OrderFilter:168 - 76:286:240326-770445: optima: Confirmed received at 27.03 - 12:05:48
+2024-03-28 11:32:07 INFO  OrderFilter:168 - 77:286:240327-714475: pickup: Confirmed received at 28.03 - 07:58:02
+2024-03-28 11:32:08 INFO  OrderFilter:168 - 78:286:240328-400314: pickup: Confirmed received at 28.03 - 07:15:02
+2024-03-28 11:32:09 INFO  OrderFilter:168 - 79:286:240327-366172: pickup: Confirmed received at 27.03 - 19:59:55
+2024-03-28 11:32:09 INFO  OrderFilter:168 - 80:286:240328-700733: pickup: Confirmed received at 28.03 - 08:36:38
+2024-03-28 11:32:10 INFO  OrderFilter:142 - 81:286:240326-046003: pickup: Canceled received at 28.03 - 10:18:45
+2024-03-28 11:32:11 INFO  OrderFilter:168 - 82:286:240328-513138: pickup: Confirmed received at 28.03 - 10:15:42
+2024-03-28 11:32:11 INFO  OrderFilter:168 - 83:286:240327-782821: pickup: Confirmed received at 27.03 - 20:36:33
+2024-03-28 11:32:12 INFO  OrderFilter:168 - 84:286:240326-755602: pickup: Confirmed received at 26.03 - 20:17:41
+2024-03-28 11:32:13 INFO  OrderFilter:168 - 85:286:240325-861756: optima: Confirmed received at 26.03 - 15:31:31
+2024-03-28 11:32:13 INFO  OrderFilter:168 - 86:286:240327-541683: pickup: Confirmed received at 27.03 - 14:56:45
+2024-03-28 11:32:14 INFO  OrderFilter:168 - 87:286:240327-280610: pickup: Confirmed received at 27.03 - 21:20:17
+2024-03-28 11:32:15 INFO  OrderFilter:142 - 88:286:240320-586505: optima: Canceled received at 28.03 - 08:01:52
+2024-03-28 11:32:16 INFO  OrderFilter:168 - 89:286:240326-088617: pickup: Confirmed received at 26.03 - 14:35:11
+2024-03-28 11:32:16 INFO  OrderFilter:168 - 90:286:240326-061876: pickup: Confirmed received at 26.03 - 16:58:13
+2024-03-28 11:32:17 INFO  OrderFilter:142 - 91:286:240326-402608: pickup: Canceled received at 28.03 - 07:57:14
+2024-03-28 11:32:18 INFO  OrderFilter:154 - 92:286:240327-786077: pickup: Completed received at 28.03 - 08:16:34
+2024-03-28 11:32:18 INFO  OrderFilter:142 - 93:286:240326-617714: pickup: Canceled received at 28.03 - 07:28:56
+2024-03-28 11:32:19 INFO  OrderFilter:168 - 94:286:240327-851520: pickup: Confirmed received at 27.03 - 11:43:02
+2024-03-28 11:32:20 INFO  OrderFilter:168 - 95:286:240327-681724: pickup: Confirmed received at 27.03 - 17:44:48
+2024-03-28 11:32:20 INFO  OrderFilter:154 - 96:286:240328-187538: pickup: Completed received at 28.03 - 10:31:01
+2024-03-28 11:32:21 INFO  OrderFilter:168 - 97:286:240326-588880: optima: Updated received at 26.03 - 19:12:03
+2024-03-28 11:32:22 INFO  OrderFilter:168 - 98:286:240326-186688: pickup: Confirmed received at 26.03 - 17:59:37
+2024-03-28 11:32:23 INFO  OrderFilter:142 - 99:286:240325-201468: pickup: Canceled received at 27.03 - 21:34:37
+2024-03-28 11:32:23 INFO  OrderFilter:168 - 100:286:240327-056226: pickup: Confirmed received at 27.03 - 15:58:24
+2024-03-28 11:32:24 INFO  OrderFilter:168 - 101:286:240327-752087: pickup: Confirmed received at 27.03 - 13:29:31
+2024-03-28 11:32:25 INFO  OrderFilter:168 - 102:286:240327-145556: pickup: Confirmed received at 27.03 - 19:24:51
+2024-03-28 11:32:25 INFO  OrderFilter:142 - 103:286:240326-627155: pickup: Canceled received at 28.03 - 09:50:27
+2024-03-28 11:32:26 INFO  OrderFilter:168 - 104:286:240326-557160: pickup: Confirmed received at 26.03 - 20:16:41
+2024-03-28 11:32:27 INFO  OrderFilter:168 - 105:286:240326-072841: pickup: Confirmed received at 26.03 - 14:35:03
+2024-03-28 11:32:27 INFO  OrderFilter:168 - 106:286:240326-563002: pickup: Confirmed received at 26.03 - 20:11:55
+2024-03-28 11:32:28 INFO  OrderFilter:168 - 107:286:240326-474178: pickup: Confirmed received at 26.03 - 13:17:41
+2024-03-28 11:32:29 INFO  OrderFilter:168 - 108:286:240327-072003: pickup: Confirmed received at 27.03 - 22:54:37
+2024-03-28 11:32:29 INFO  OrderFilter:168 - 109:286:240327-600432: pickup: Confirmed received at 28.03 - 07:56:06
+2024-03-28 11:32:30 INFO  OrderFilter:168 - 110:286:240327-150547: pickup: Confirmed received at 27.03 - 17:42:26
+2024-03-28 11:32:31 INFO  OrderFilter:168 - 111:286:240328-654461: pickup: Confirmed received at 28.03 - 09:10:03
+2024-03-28 11:32:31 INFO  OrderFilter:168 - 112:286:240327-547632: pickup: Confirmed received at 27.03 - 10:43:36
+2024-03-28 11:32:32 INFO  OrderFilter:168 - 113:286:240326-523025: pickup: Confirmed received at 26.03 - 15:39:56
+2024-03-28 11:32:33 INFO  OrderFilter:168 - 114:286:240327-282102: pickup: Confirmed received at 27.03 - 17:44:17
+2024-03-28 11:32:34 INFO  OrderFilter:168 - 115:286:240327-867630: pickup: Confirmed received at 27.03 - 19:34:06
+2024-03-28 11:32:34 INFO  OrderFilter:168 - 116:286:240326-630568: pickup: Confirmed received at 26.03 - 16:10:08
+2024-03-28 11:32:35 INFO  OrderFilter:168 - 117:286:240327-557317: pickup: Confirmed received at 27.03 - 14:02:11
+2024-03-28 11:32:36 INFO  OrderFilter:154 - 118:286:240328-146355: pickup: Completed received at 28.03 - 11:17:08
+2024-03-28 11:32:36 INFO  OrderFilter:168 - 119:286:240327-632825: pickup: Confirmed received at 27.03 - 20:06:13
+2024-03-28 11:32:37 INFO  OrderFilter:168 - 120:286:240327-108138: pickup: Confirmed received at 27.03 - 19:55:02
+2024-03-28 11:32:38 INFO  OrderFilter:168 - 121:286:240327-461728: pickup: Confirmed received at 27.03 - 20:06:34
+2024-03-28 11:32:38 INFO  OrderFilter:168 - 122:286:240321-710257: optima: Confirmed received at 25.03 - 08:49:50
+2024-03-28 11:32:39 INFO  OrderFilter:154 - 123:286:240328-650401: pickup: Completed received at 28.03 - 10:59:59
+2024-03-28 11:32:40 INFO  OrderFilter:168 - 124:286:240323-802778: pickup: Updated received at 23.03 - 12:17:00
+2024-03-28 11:32:41 INFO  OrderFilter:168 - 125:286:240320-020587: pickup: Canceled received at 23.03 - 14:48:50
+2024-03-28 11:32:41 INFO  OrderFilter:168 - 126:286:240327-821440: pickup: Confirmed received at 27.03 - 10:10:03
+2024-03-28 11:32:42 INFO  OrderFilter:168 - 127:286:240328-200136: pickup: Confirmed received at 28.03 - 11:28:29
+2024-03-28 11:32:43 INFO  OrderFilter:168 - 128:286:240327-118614: pickup: Confirmed received at 27.03 - 17:04:03
+2024-03-28 11:32:43 INFO  OrderFilter:168 - 129:286:240327-230028: pickup: Confirmed received at 27.03 - 17:44:50
+2024-03-28 11:32:44 INFO  OrderFilter:168 - 130:286:240328-267381: pickup: Confirmed received at 28.03 - 09:09:03
+2024-03-28 11:32:45 INFO  OrderFilter:168 - 131:286:240323-752468: optima: Accepted received at 23.03 - 18:03:57
+2024-03-28 11:32:45 INFO  OrderFilter:142 - 132:286:240326-641226: pickup: Canceled received at 28.03 - 10:57:59
+2024-03-28 11:32:46 INFO  OrderFilter:142 - 133:286:240326-480845: pickup: Canceled received at 28.03 - 11:15:21
+2024-03-28 11:32:47 INFO  OrderFilter:168 - 134:286:240327-781838: pickup: Confirmed received at 27.03 - 21:19:08
+2024-03-28 11:32:47 INFO  OrderFilter:168 - 135:286:240327-855548: pickup: Confirmed received at 27.03 - 20:41:42
+2024-03-28 11:32:48 INFO  OrderFilter:168 - 136:286:240328-033404: pickup: Confirmed received at 28.03 - 10:48:24
+2024-03-28 11:32:49 INFO  OrderFilter:154 - 137:286:240328-451676: pickup: Completed received at 28.03 - 10:55:15
+2024-03-28 11:32:49 INFO  OrderFilter:168 - 138:286:240327-234244: pickup: Confirmed received at 27.03 - 19:00:03
+2024-03-28 11:32:50 INFO  OrderFilter:154 - 139:286:240328-618861: pickup: Completed received at 28.03 - 09:47:03
+2024-03-28 11:32:51 INFO  OrderFilter:142 - 140:286:240325-488318: pickup: Canceled received at 27.03 - 22:45:22
+2024-03-28 11:32:51 INFO  OrderFilter:168 - 141:286:240325-211243: optima: Confirmed received at 27.03 - 13:01:20
+2024-03-28 11:32:52 INFO  OrderFilter:142 - 142:286:240328-827474: pickup: Canceled received at 28.03 - 09:42:49
+2024-03-28 11:32:53 INFO  OrderFilter:168 - 143:286:240327-821767: pickup: Confirmed received at 28.03 - 09:35:17
+2024-03-28 11:32:53 INFO  OrderFilter:154 - 144:286:240328-465165: pickup: Completed received at 28.03 - 10:43:16
+2024-03-28 11:32:54 INFO  OrderFilter:168 - 145:286:240328-484360: pickup: Confirmed received at 28.03 - 08:42:32
+2024-03-28 11:32:55 INFO  OrderFilter:168 - 146:286:240328-655125: pickup: Confirmed received at 28.03 - 09:59:02
+2024-03-28 11:32:56 INFO  OrderFilter:142 - 147:286:240325-417125: pickup: Canceled received at 27.03 - 23:27:49
+2024-03-28 11:32:56 INFO  OrderFilter:154 - 148:286:240328-522831: pickup: Completed received at 28.03 - 10:42:16
+2024-03-28 11:32:57 INFO  OrderFilter:168 - 149:286:240327-354257: pickup: Confirmed received at 27.03 - 21:23:29
+2024-03-28 11:32:58 INFO  OrderFilter:168 - 150:286:240327-081213: pickup: Confirmed received at 27.03 - 20:56:36
+2024-03-28 11:32:59 INFO  OrderFilter:168 - 151:286:240327-171826: pickup: Confirmed received at 27.03 - 16:15:58
+2024-03-28 11:32:59 INFO  OrderFilter:168 - 152:286:240327-761137: pickup: Confirmed received at 27.03 - 16:49:59
+2024-03-28 11:33:00 INFO  OrderFilter:168 - 153:286:240327-364851: pickup: Confirmed received at 27.03 - 16:52:59
+2024-03-28 11:33:01 INFO  OrderFilter:142 - 154:286:240325-406216: pickup: Canceled received at 28.03 - 00:19:43
+2024-03-28 11:33:01 INFO  OrderFilter:168 - 155:286:240326-277244: pickup: Confirmed received at 26.03 - 19:52:10
+2024-03-28 11:33:02 INFO  OrderFilter:168 - 156:286:240327-401324: pickup: Confirmed received at 28.03 - 07:40:34
+2024-03-28 11:33:03 INFO  OrderFilter:168 - 157:286:240327-582871: pickup: Confirmed received at 27.03 - 11:20:15
+2024-03-28 11:33:03 INFO  OrderFilter:168 - 158:286:240327-150330: pickup: Confirmed received at 27.03 - 20:03:41
+2024-03-28 11:33:04 INFO  OrderFilter:168 - 159:286:240325-160813: optima: Confirmed received at 26.03 - 12:32:27
+2024-03-28 11:33:05 INFO  OrderFilter:168 - 160:286:240328-784548: pickup: Confirmed received at 28.03 - 09:38:03
+2024-03-28 11:33:05 INFO  OrderFilter:168 - 161:286:240327-810060: pickup: Confirmed received at 27.03 - 09:30:03
+2024-03-28 11:33:06 INFO  OrderFilter:168 - 162:286:240326-075182: pickup: Confirmed received at 26.03 - 17:45:03
+2024-03-28 11:33:07 INFO  OrderFilter:168 - 163:286:240327-716468: pickup: Confirmed received at 27.03 - 16:15:58
+2024-03-28 11:33:07 INFO  OrderFilter:142 - 164:286:240328-681666: pickup: Canceled received at 28.03 - 08:29:15
+2024-03-28 11:33:08 INFO  OrderFilter:168 - 165:286:240328-078451: pickup: Confirmed received at 28.03 - 10:51:03
+2024-03-28 11:33:09 INFO  OrderFilter:168 - 166:286:240326-612747: pickup: Confirmed received at 26.03 - 14:03:09
+2024-03-28 11:33:09 INFO  OrderFilter:142 - 167:286:240320-213260: optima: Canceled received at 28.03 - 08:01:55
+2024-03-28 11:33:10 INFO  OrderFilter:142 - 168:286:240325-067034: pickup: Canceled received at 28.03 - 07:28:56
+2024-03-28 11:33:11 INFO  OrderFilter:168 - 169:286:240327-085122: pickup: Confirmed received at 27.03 - 16:49:11
+2024-03-28 11:33:12 INFO  OrderFilter:168 - 170:286:240326-536567: pickup: Confirmed received at 26.03 - 21:52:24
+2024-03-28 11:33:12 INFO  OrderFilter:154 - 171:286:240327-737381: pickup: Completed received at 28.03 - 08:11:13
+2024-03-28 11:33:13 INFO  OrderFilter:168 - 172:286:240327-233275: pickup: Confirmed received at 27.03 - 12:19:45
+2024-03-28 11:33:14 INFO  OrderFilter:168 - 173:286:240326-451413: pickup: Confirmed received at 27.03 - 15:47:29
+2024-03-28 11:33:14 INFO  OrderFilter:154 - 174:286:240327-635580: pickup: Completed received at 28.03 - 11:27:02
+2024-03-28 11:33:15 INFO  OrderFilter:154 - 175:286:240327-848307: pickup: Completed received at 28.03 - 09:42:47
+2024-03-28 11:33:16 INFO  OrderFilter:154 - 176:286:240328-271288: pickup: Completed received at 28.03 - 11:08:01
+2024-03-28 11:33:17 INFO  OrderFilter:168 - 177:286:240326-202024: pickup: Confirmed received at 26.03 - 12:14:29
+2024-03-28 11:33:17 INFO  OrderFilter:168 - 178:286:240327-767578: pickup: Confirmed received at 27.03 - 20:04:39
+2024-03-28 11:33:18 INFO  OrderFilter:168 - 179:286:240327-547287: pickup: Confirmed received at 27.03 - 17:20:49
+2024-03-28 11:33:19 INFO  OrderFilter:154 - 180:286:240328-656315: pickup: Completed received at 28.03 - 11:32:37
+2024-03-28 11:33:19 INFO  OrderFilter:142 - 181:286:240326-503418: pickup: Canceled received at 28.03 - 09:36:18
+2024-03-28 11:33:20 INFO  OrderFilter:168 - 182:286:240328-744777: pickup: Confirmed received at 28.03 - 10:47:45
+2024-03-28 11:33:21 INFO  OrderFilter:168 - 183:286:240327-818465: pickup: Confirmed received at 27.03 - 16:16:58
+2024-03-28 11:33:21 INFO  OrderFilter:168 - 184:286:240326-063043: pickup: Confirmed received at 26.03 - 19:56:10
+2024-03-28 11:33:22 INFO  OrderFilter:168 - 185:286:240326-257058: pickup: Confirmed received at 26.03 - 12:39:06
+2024-03-28 11:33:23 INFO  OrderFilter:168 - 186:286:240327-260640: pickup: Confirmed received at 27.03 - 14:09:33
+2024-03-28 11:33:23 INFO  OrderFilter:168 - 187:286:240326-724243: pickup: Confirmed received at 26.03 - 13:47:17
+2024-03-28 11:33:24 INFO  OrderFilter:168 - 188:286:240328-887567: pickup: Confirmed received at 28.03 - 09:12:58
+2024-03-28 11:33:25 INFO  OrderFilter:168 - 189:286:240327-541188: pickup: Confirmed received at 27.03 - 08:05:15
+2024-03-28 11:33:26 INFO  OrderFilter:168 - 190:286:240327-837660: pickup: Confirmed received at 27.03 - 20:06:19
+2024-03-28 11:33:26 INFO  OrderFilter:168 - 191:286:240327-672430: pickup: Confirmed received at 27.03 - 06:55:03
+2024-03-28 11:33:27 INFO  OrderFilter:168 - 192:286:240328-744672: pickup: Confirmed received at 28.03 - 10:35:38
+2024-03-28 11:33:28 INFO  OrderFilter:168 - 193:286:240327-358277: optima: Packed received at 27.03 - 16:43:17
+2024-03-28 11:33:28 INFO  OrderFilter:168 - 194:286:240327-616151: pickup: Confirmed received at 27.03 - 19:13:03
+2024-03-28 11:33:29 INFO  OrderFilter:168 - 195:286:240327-141255: pickup: Confirmed received at 27.03 - 17:41:26
+2024-03-28 11:33:30 INFO  OrderFilter:168 - 196:286:240327-711354: pickup: Confirmed received at 27.03 - 19:18:03
+2024-03-28 11:33:30 INFO  OrderFilter:168 - 197:286:240326-604431: pickup: Confirmed received at 26.03 - 13:26:02
+2024-03-28 11:33:31 INFO  OrderFilter:168 - 198:286:240326-825024: pickup: Confirmed received at 26.03 - 12:43:02
+2024-03-28 11:33:32 INFO  OrderFilter:168 - 199:286:240327-083166: pickup: Confirmed received at 27.03 - 16:00:14
+2024-03-28 11:33:33 INFO  OrderFilter:154 - 200:286:240327-436355: pickup: Completed received at 28.03 - 11:23:57
+2024-03-28 11:33:33 INFO  OrderFilter:168 - 201:286:240327-021607: pickup: Confirmed received at 27.03 - 15:20:35
+2024-03-28 11:33:34 INFO  OrderFilter:168 - 202:286:240326-855842: pickup: Confirmed received at 26.03 - 12:50:03
+2024-03-28 11:33:35 INFO  OrderFilter:168 - 203:286:240326-551243: optima: Confirmed received at 27.03 - 15:02:52
+2024-03-28 11:33:35 INFO  OrderFilter:168 - 204:286:240326-846580: pickup: Confirmed received at 26.03 - 13:48:06
+2024-03-28 11:33:36 INFO  OrderFilter:154 - 205:286:240328-387783: pickup: Completed received at 28.03 - 11:26:16
+2024-03-28 11:33:37 INFO  OrderFilter:154 - 206:286:240327-427245: pickup: Completed received at 28.03 - 10:58:02
+2024-03-28 11:33:37 INFO  OrderFilter:168 - 207:286:240327-104865: pickup: Confirmed received at 28.03 - 07:39:24
+2024-03-28 11:33:38 INFO  OrderFilter:168 - 208:286:240326-405176: pickup: Confirmed received at 26.03 - 18:11:33
+2024-03-28 11:33:39 INFO  OrderFilter:168 - 209:286:240326-808354: pickup: Confirmed received at 27.03 - 08:01:03
+2024-03-28 11:33:39 INFO  OrderFilter:142 - 210:286:240326-866510: pickup: Canceled received at 28.03 - 08:39:42
+2024-03-28 11:33:40 INFO  OrderFilter:168 - 211:286:240326-326664: pickup: Confirmed received at 26.03 - 13:50:20
+2024-03-28 11:33:41 INFO  OrderFilter:168 - 212:286:240327-470276: pickup: Confirmed received at 27.03 - 16:49:58
+2024-03-28 11:33:41 INFO  OrderFilter:168 - 213:286:240326-542882: pickup: Confirmed received at 26.03 - 12:00:01
+2024-03-28 11:33:42 INFO  OrderFilter:168 - 214:286:240326-020822: pickup: Confirmed received at 26.03 - 18:03:00
+2024-03-28 11:33:43 INFO  OrderFilter:168 - 215:286:240328-471886: pickup: Confirmed received at 28.03 - 09:56:13
+2024-03-28 11:33:44 INFO  OrderFilter:168 - 216:286:240327-022723: pickup: Confirmed received at 27.03 - 20:06:43
+2024-03-28 11:33:44 INFO  OrderFilter:168 - 217:286:240327-765655: pickup: Confirmed received at 27.03 - 22:23:47
+2024-03-28 11:33:45 INFO  OrderFilter:168 - 218:286:240327-082583: pickup: Confirmed received at 27.03 - 21:18:33
+2024-03-28 11:33:46 INFO  OrderFilter:154 - 219:286:240328-706452: pickup: Completed received at 28.03 - 11:25:02
+2024-03-28 11:33:46 INFO  OrderFilter:168 - 220:286:240326-851132: pickup: Confirmed received at 26.03 - 18:05:28
+2024-03-28 11:33:47 INFO  OrderFilter:168 - 221:286:240323-700452: optima: Packed received at 25.03 - 10:42:36
+2024-03-28 11:33:48 INFO  OrderFilter:154 - 222:286:240328-667561: pickup: Completed received at 28.03 - 07:08:00
+2024-03-28 11:33:48 INFO  OrderFilter:142 - 223:286:240328-184658: pickup: Canceled received at 28.03 - 11:01:12
+2024-03-28 11:33:49 INFO  OrderFilter:168 - 224:286:240328-466848: pickup: Confirmed received at 28.03 - 10:12:02
+2024-03-28 11:33:50 INFO  OrderFilter:168 - 225:286:240323-847042: optima: Packed received at 25.03 - 10:52:15
+2024-03-28 11:33:50 INFO  OrderFilter:168 - 226:286:240327-184803: pickup: Confirmed received at 27.03 - 19:57:49
+2024-03-28 11:33:51 INFO  OrderFilter:142 - 227:286:240328-038121: pickup: Canceled received at 28.03 - 07:22:57
+2024-03-28 11:33:52 INFO  OrderFilter:168 - 228:286:240326-812066: pickup: Confirmed received at 26.03 - 12:43:02
+2024-03-28 11:33:52 INFO  OrderFilter:168 - 229:286:240327-272725: pickup: Confirmed received at 27.03 - 16:06:58
+2024-03-28 11:33:53 INFO  OrderFilter:168 - 230:286:240327-237827: pickup: Confirmed received at 27.03 - 10:47:36
+2024-03-28 11:33:54 INFO  OrderFilter:168 - 231:286:240327-301753: pickup: Confirmed received at 27.03 - 16:55:02
+2024-03-28 11:33:55 INFO  OrderFilter:168 - 232:286:240328-336581: pickup: Confirmed received at 28.03 - 07:30:03
+2024-03-28 11:33:55 INFO  OrderFilter:142 - 233:286:240326-562424: pickup: Canceled received at 28.03 - 10:47:03
+2024-03-28 11:33:56 INFO  OrderFilter:168 - 234:286:240328-715038: pickup: Confirmed received at 28.03 - 10:47:11
+2024-03-28 11:33:57 INFO  OrderFilter:168 - 235:286:240326-826334: pickup: Confirmed received at 26.03 - 19:44:04
+2024-03-28 11:33:57 INFO  OrderFilter:168 - 236:286:240322-553122: optima: Confirmed received at 26.03 - 09:12:03
+2024-03-28 11:33:58 INFO  OrderFilter:168 - 237:286:240326-740765: pickup: Confirmed received at 26.03 - 19:02:31
+2024-03-28 11:33:59 INFO  OrderFilter:168 - 238:286:240327-442123: optima: Packed received at 27.03 - 18:53:22
+2024-03-28 11:33:59 INFO  OrderFilter:168 - 239:286:240327-147575: pickup: Confirmed received at 27.03 - 16:48:59
+2024-03-28 11:34:00 INFO  OrderFilter:168 - 240:286:240327-022281: pickup: Confirmed received at 27.03 - 18:23:52
+2024-03-28 11:34:01 INFO  OrderFilter:168 - 241:286:240327-687543: pickup: Confirmed received at 27.03 - 14:27:03
+2024-03-28 11:34:01 INFO  OrderFilter:168 - 242:286:240326-752046: pickup: Confirmed received at 26.03 - 20:15:40
+2024-03-28 11:34:02 INFO  OrderFilter:168 - 243:286:240327-734818: pickup: Confirmed received at 27.03 - 21:38:26
+2024-03-28 11:34:03 INFO  OrderFilter:168 - 244:286:240326-407571: pickup: Confirmed received at 26.03 - 13:52:20
+2024-03-28 11:34:04 INFO  OrderFilter:154 - 245:286:240326-610483: pickup: Completed received at 28.03 - 10:39:02
+2024-03-28 11:34:04 INFO  OrderFilter:168 - 246:286:240326-568778: pickup: Confirmed received at 26.03 - 20:28:02
+2024-03-28 11:34:05 INFO  OrderFilter:168 - 247:286:240326-135388: pickup: Confirmed received at 26.03 - 16:01:12
+2024-03-28 11:34:06 INFO  OrderFilter:168 - 248:286:240328-658421: optima: Processing received at 28.03 - 11:31:34
+2024-03-28 11:34:06 INFO  OrderFilter:168 - 249:286:240326-443500: pickup: Confirmed received at 26.03 - 19:47:43
+2024-03-28 11:34:07 INFO  OrderFilter:168 - 250:286:240326-115341: pickup: Confirmed received at 26.03 - 15:47:03
+2024-03-28 11:34:08 INFO  OrderFilter:168 - 251:286:240328-487686: pickup: Confirmed received at 28.03 - 10:32:29
+2024-03-28 11:34:08 INFO  OrderFilter:154 - 252:286:240328-547321: pickup: Completed received at 28.03 - 09:55:50
+2024-03-28 11:34:09 INFO  OrderFilter:168 - 253:286:240328-873422: pickup: Confirmed received at 28.03 - 07:48:02
+2024-03-28 11:34:10 INFO  OrderFilter:142 - 254:286:240326-337532: pickup: Canceled received at 28.03 - 10:47:03
+2024-03-28 11:34:11 INFO  OrderFilter:154 - 255:286:240328-680548: pickup: Completed received at 28.03 - 11:01:13
+2024-03-28 11:34:12 INFO  OrderFilter:168 - 256:286:240323-064610: optima: Confirmed received at 26.03 - 15:01:39
+2024-03-28 11:34:12 INFO  OrderFilter:168 - 257:286:240327-264081: pickup: Confirmed received at 28.03 - 08:05:52
+2024-03-28 11:34:13 INFO  OrderFilter:168 - 258:286:240325-572752: optima: Confirmed received at 26.03 - 13:32:47
+2024-03-28 11:34:14 INFO  OrderFilter:154 - 259:286:240328-816201: pickup: Completed received at 28.03 - 10:09:01
+2024-03-28 11:34:14 INFO  OrderFilter:168 - 260:286:240328-706437: pickup: Confirmed received at 28.03 - 10:15:42
+2024-03-28 11:34:15 INFO  OrderFilter:142 - 261:286:240326-253452: pickup: Canceled received at 28.03 - 10:04:36
+2024-03-28 11:34:16 INFO  OrderFilter:168 - 262:286:240328-640440: pickup: Confirmed received at 28.03 - 08:50:35
+2024-03-28 11:34:16 INFO  OrderFilter:168 - 263:286:240327-436705: optima: Updated received at 27.03 - 10:25:02
+2024-03-28 11:34:17 INFO  OrderFilter:168 - 264:286:240326-410712: pickup: Confirmed received at 26.03 - 13:25:45
+2024-03-28 11:34:18 INFO  OrderFilter:168 - 265:286:240327-885321: pickup: Confirmed received at 27.03 - 16:36:03
+2024-03-28 11:34:18 INFO  OrderFilter:168 - 266:286:240327-755048: pickup: Confirmed received at 27.03 - 17:28:14
+2024-03-28 11:34:19 INFO  OrderFilter:168 - 267:286:240326-425651: pickup: Confirmed received at 26.03 - 11:41:44
+2024-03-28 11:34:20 INFO  OrderFilter:168 - 268:286:240328-276130: pickup: Confirmed received at 28.03 - 10:00:48
+2024-03-28 11:34:20 INFO  OrderFilter:142 - 269:286:240326-321067: pickup: Canceled received at 28.03 - 09:08:00
+2024-03-28 11:34:21 INFO  OrderFilter:168 - 270:286:240326-325784: pickup: Confirmed received at 26.03 - 18:11:48
+2024-03-28 11:34:22 INFO  OrderFilter:168 - 271:286:240326-208467: pickup: Confirmed received at 26.03 - 13:24:03
+2024-03-28 11:34:22 INFO  OrderFilter:168 - 272:286:240327-045715: pickup: Confirmed received at 27.03 - 20:04:41
+2024-03-28 11:34:23 INFO  OrderFilter:168 - 273:286:240327-154634: pickup: Confirmed received at 27.03 - 19:34:56
+2024-03-28 11:34:24 INFO  OrderFilter:142 - 274:286:240326-023888: pickup: Canceled received at 28.03 - 07:57:14
+2024-03-28 11:34:24 INFO  OrderFilter:168 - 275:286:240327-482480: pickup: Confirmed received at 27.03 - 10:48:03
+2024-03-28 11:34:25 INFO  OrderFilter:168 - 276:286:240326-560148: optima: Confirmed received at 28.03 - 10:32:03
+2024-03-28 11:34:26 INFO  OrderFilter:154 - 277:286:240326-040765: pickup: Completed received at 28.03 - 09:00:03
+2024-03-28 11:34:26 INFO  OrderFilter:168 - 278:286:240328-164058: optima: Updated received at 28.03 - 11:33:03
+2024-03-28 11:34:27 INFO  OrderFilter:168 - 279:286:240327-380650: pickup: Confirmed received at 27.03 - 18:06:35
+2024-03-28 11:34:28 INFO  OrderFilter:154 - 280:286:240328-026281: pickup: Completed received at 28.03 - 11:16:03
+2024-03-28 11:34:28 INFO  OrderFilter:168 - 281:286:240326-470533: pickup: Confirmed received at 26.03 - 13:16:35
+2024-03-28 11:34:29 INFO  OrderFilter:168 - 282:286:240328-776152: pickup: Confirmed received at 28.03 - 09:12:58
+2024-03-28 11:34:30 INFO  OrderFilter:168 - 283:286:240328-513323: pickup: Confirmed received at 28.03 - 09:25:03
+2024-03-28 11:34:31 INFO  OrderFilter:168 - 284:286:240323-407213: optima: Confirmed received at 26.03 - 10:40:03
+2024-03-28 11:34:31 INFO  OrderFilter:168 - 285:286:240328-701655: pickup: Confirmed received at 28.03 - 11:11:44
+2024-03-28 11:34:31 INFO  OrderFilter:54 - 240325-741476: more than 48 hours for pickup
+2024-03-28 11:34:31 INFO  OrderFilter:54 - 240325-631723: more than 48 hours for pickup
+2024-03-28 11:34:31 INFO  OrderFilter:60 - 240325-631723: client ignored
+2024-03-28 11:34:31 INFO  OrderFilter:54 - 240326-514377: more than 48 hours for pickup
+2024-03-28 11:34:31 INFO  OrderFilter:60 - 240326-514377: client ignored
+2024-03-28 11:34:31 INFO  OrderFilter:54 - 240326-280063: more than 48 hours for pickup
+2024-03-28 11:34:31 INFO  OrderFilter:60 - 240326-280063: client ignored
+2024-03-28 11:34:31 INFO  OrderFilter:54 - 240326-046003: more than 48 hours for pickup
+2024-03-28 11:34:31 INFO  OrderFilter:60 - 240326-046003: client ignored
+2024-03-28 11:34:31 INFO  OrderFilter:54 - 240326-402608: more than 48 hours for pickup
+2024-03-28 11:34:31 INFO  OrderFilter:60 - 240326-402608: client ignored
+2024-03-28 11:34:31 INFO  OrderFilter:54 - 240326-617714: more than 48 hours for pickup
+2024-03-28 11:34:31 INFO  OrderFilter:60 - 240326-617714: client ignored
+2024-03-28 11:34:31 INFO  OrderFilter:54 - 240325-201468: more than 48 hours for pickup
+2024-03-28 11:34:31 INFO  OrderFilter:60 - 240325-201468: client ignored
+2024-03-28 11:34:31 INFO  OrderFilter:54 - 240326-627155: more than 48 hours for pickup
+2024-03-28 11:34:31 INFO  OrderFilter:60 - 240326-627155: client ignored
+2024-03-28 11:34:31 INFO  OrderFilter:54 - 240326-641226: more than 48 hours for pickup
+2024-03-28 11:34:31 INFO  OrderFilter:54 - 240326-480845: more than 48 hours for pickup
+2024-03-28 11:34:31 INFO  OrderFilter:60 - 240326-480845: client ignored
+2024-03-28 11:34:31 INFO  OrderFilter:54 - 240325-488318: more than 48 hours for pickup
+2024-03-28 11:34:31 INFO  OrderFilter:60 - 240325-488318: client ignored
+2024-03-28 11:34:31 INFO  OrderFilter:54 - 240325-417125: more than 48 hours for pickup
+2024-03-28 11:34:31 INFO  OrderFilter:60 - 240325-417125: client ignored
+2024-03-28 11:34:31 INFO  OrderFilter:54 - 240325-406216: more than 48 hours for pickup
+2024-03-28 11:34:31 INFO  OrderFilter:54 - 240325-067034: more than 48 hours for pickup
+2024-03-28 11:34:31 INFO  OrderFilter:60 - 240325-067034: client ignored
+2024-03-28 11:34:31 INFO  OrderFilter:54 - 240326-503418: more than 48 hours for pickup
+2024-03-28 11:34:31 INFO  OrderFilter:60 - 240326-503418: client ignored
+2024-03-28 11:34:31 INFO  OrderFilter:54 - 240326-866510: more than 48 hours for pickup
+2024-03-28 11:34:31 INFO  OrderFilter:60 - 240326-866510: client ignored
+2024-03-28 11:34:31 INFO  OrderFilter:54 - 240326-562424: more than 48 hours for pickup
+2024-03-28 11:34:31 INFO  OrderFilter:60 - 240326-562424: client ignored
+2024-03-28 11:34:31 INFO  OrderFilter:54 - 240326-337532: more than 48 hours for pickup
+2024-03-28 11:34:31 INFO  OrderFilter:60 - 240326-337532: client ignored
+2024-03-28 11:34:31 INFO  OrderFilter:54 - 240326-253452: more than 48 hours for pickup
+2024-03-28 11:34:31 INFO  OrderFilter:60 - 240326-253452: client ignored
+2024-03-28 11:34:32 INFO  OrderFilter:54 - 240326-321067: more than 48 hours for pickup
+2024-03-28 11:34:32 INFO  OrderFilter:60 - 240326-321067: client ignored
+2024-03-28 11:34:32 INFO  OrderFilter:54 - 240326-023888: more than 48 hours for pickup
+2024-03-28 11:34:32 INFO  OrderFilter:60 - 240326-023888: client ignored
+2024-03-28 11:34:32 INFO  OrderFilter:103 - AptekiApp-AptekiUA: double click 240328-176751 with 240328-650401 time: 147
+2024-03-28 11:34:34 INFO  SFTP:71 - File 8314150 downloaded successfully!
+2024-03-28 11:34:34 INFO  SFTP:71 - File 6751302 downloaded successfully!
+2024-03-28 11:34:35 INFO  SFTP:71 - File 7356013 downloaded successfully!
+2024-03-28 11:34:35 INFO  SFTP:71 - File 4646161 downloaded successfully!
+2024-03-28 11:34:35 INFO  SFTP:71 - File 568554 downloaded successfully!
+2024-03-28 11:34:36 INFO  SFTP:71 - File 8296092 downloaded successfully!
+2024-03-28 11:34:36 INFO  TarGZ:34 - The file 8314150.gz was decompressed successfully!
+2024-03-28 11:34:36 INFO  TarGZ:34 - The file 6751302.gz was decompressed successfully!
+2024-03-28 11:34:36 INFO  TarGZ:34 - The file 7356013.gz was decompressed successfully!
+2024-03-28 11:34:36 INFO  TarGZ:34 - The file 4646161.gz was decompressed successfully!
+2024-03-28 11:34:36 INFO  TarGZ:34 - The file 568554.gz was decompressed successfully!
+2024-03-28 11:34:36 INFO  TarGZ:34 - The file 8296092.gz was decompressed successfully!
+2024-03-28 11:34:36 INFO  SftpManager:50 - File 8314150 read successfully!
+2024-03-28 11:34:36 INFO  SftpManager:50 - File 6751302 read successfully!
+2024-03-28 11:34:36 INFO  SftpManager:50 - File 7356013 read successfully!
+2024-03-28 11:34:36 INFO  SftpManager:50 - File 4646161 read successfully!
+2024-03-28 11:34:37 INFO  SftpManager:50 - File 568554 read successfully!
+2024-03-28 11:34:37 INFO  SftpManager:50 - File 8296092 read successfully!
+2024-03-28 11:34:37 INFO  FileEraser:22 - File 8314150 deleted successfully.
+2024-03-28 11:34:37 INFO  FileEraser:22 - File 6751302 deleted successfully.
+2024-03-28 11:34:37 INFO  FileEraser:22 - File 7356013 deleted successfully.
+2024-03-28 11:34:37 INFO  FileEraser:22 - File 4646161 deleted successfully.
+2024-03-28 11:34:37 INFO  FileEraser:22 - File 568554 deleted successfully.
+2024-03-28 11:34:37 INFO  FileEraser:22 - File 8296092 deleted successfully.
+2024-03-28 11:34:38 ERROR ExcelWriter:188 - Base Price in 2: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "classes.adapter.PrepsInShop.getPrice()" is null
+2024-03-28 11:34:38 ERROR ExcelWriter:196 - Base quantity in 2: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "classes.adapter.PrepsInShop.getQuant()" is null
+2024-03-28 11:34:38 ERROR ExcelWriter:188 - Base Price in 3: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "classes.adapter.PrepsInShop.getPrice()" is null
+2024-03-28 11:34:38 ERROR ExcelWriter:196 - Base quantity in 3: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "classes.adapter.PrepsInShop.getQuant()" is null
+2024-03-28 11:34:38 ERROR ExcelWriter:188 - Base Price in 4: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "classes.adapter.PrepsInShop.getPrice()" is null
+2024-03-28 11:34:38 ERROR ExcelWriter:196 - Base quantity in 4: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "classes.adapter.PrepsInShop.getQuant()" is null
+2024-03-28 11:34:38 ERROR ExcelWriter:188 - Base Price in 5: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "classes.adapter.PrepsInShop.getPrice()" is null
+2024-03-28 11:34:38 ERROR ExcelWriter:196 - Base quantity in 5: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "classes.adapter.PrepsInShop.getQuant()" is null
+2024-03-28 11:34:38 INFO  ExcelWriter:214 - Excel file for СІРІУС-95 ТОВ created successfully.
+2024-03-28 11:34:38 INFO  ExcelWriter:214 - Excel file for ПОДОРОЖНИК МЕРЕЖА АПТЕК created successfully.
+2024-03-28 11:34:38 ERROR ExcelWriter:188 - Base Price in 2: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "classes.adapter.PrepsInShop.getPrice()" is null
+2024-03-28 11:34:38 ERROR ExcelWriter:196 - Base quantity in 2: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "classes.adapter.PrepsInShop.getQuant()" is null
+2024-03-28 11:34:38 ERROR ExcelWriter:188 - Base Price in 3: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "classes.adapter.PrepsInShop.getPrice()" is null
+2024-03-28 11:34:38 ERROR ExcelWriter:196 - Base quantity in 3: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "classes.adapter.PrepsInShop.getQuant()" is null
+2024-03-28 11:34:38 ERROR ExcelWriter:188 - Base Price in 4: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "classes.adapter.PrepsInShop.getPrice()" is null
+2024-03-28 11:34:38 ERROR ExcelWriter:196 - Base quantity in 4: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "classes.adapter.PrepsInShop.getQuant()" is null
+2024-03-28 11:34:38 ERROR ExcelWriter:188 - Base Price in 5: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "classes.adapter.PrepsInShop.getPrice()" is null
+2024-03-28 11:34:38 ERROR ExcelWriter:196 - Base quantity in 5: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "classes.adapter.PrepsInShop.getQuant()" is null
+2024-03-28 11:34:38 INFO  ExcelWriter:214 - Excel file for АПТЕКА НЦ ТОВ created successfully.
+2024-03-28 11:34:38 INFO  OrdersFiles:42 - Array of 1046 objects written to C:\Users\oleksii.vasylenko\OneDrive - Proximaresearch International LLC\Документи\IdeaProjects\Proxima.v.3.0\orders\ignored.json file successfully.
+2024-03-28 11:34:38 INFO  OrdersFiles:42 - Array of 257 objects written to C:\Users\oleksii.vasylenko\OneDrive - Proximaresearch International LLC\Документи\IdeaProjects\Proxima.v.3.0\orders\valid.json file successfully.
+2024-03-28 11:34:38 INFO  Configurator:88 - Total Execution Time: 3 min, 38 sec, 44 ml sec
