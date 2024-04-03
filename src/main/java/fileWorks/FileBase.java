@@ -10,6 +10,8 @@ public abstract class FileBase {
     protected static String SOURCE_DIR = "orders";
     protected static String IGNORED_ORDERS = "ignored";
     protected static String VALID_ORDERS = "valid";
+    protected static String BACKUP_IGNORED_ORDERS = "backup_ignored";
+    protected static String BACKUP_VALID_ORDERS = "backup_valid";
     protected static ObjectMapper objectMapper = new ObjectMapper();
     protected static Path filePath;
     protected static Path init(String file) {

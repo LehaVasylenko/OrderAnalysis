@@ -120,8 +120,8 @@ public class GetOrders extends Spec implements IOrders {
         temp.addAll(notCompletedNew);
         this.notCompletedOrders = new ArrayList<>(temp);
 
-        writeOrdersToFile(this.ignoredOrders, false, true);
-        writeOrdersToFile(this.notCompletedOrders, true, false);
+        writeOrdersToFile(this.ignoredOrders, false, true, false);
+        writeOrdersToFile(this.notCompletedOrders, true, false, false);
     }
 
 }

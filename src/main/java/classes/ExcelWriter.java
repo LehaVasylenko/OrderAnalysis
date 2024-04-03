@@ -178,6 +178,7 @@ public class ExcelWriter {
                             row.createCell(k).setCellValue("Unknown prep");
                             logger.error("Error receiving Drug name in " + rowIndex + ": " + e.getMessage());
                         }
+                        k++;
 
                         try {
                             row.createCell(k).setCellValue(items.getPrice());

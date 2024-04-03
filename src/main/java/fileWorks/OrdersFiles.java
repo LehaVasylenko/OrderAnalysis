@@ -17,10 +17,15 @@ import java.util.List;
 public abstract class OrdersFiles extends FileBase{
     private static final Logger logger = LoggerFactory.getLogger(OrdersFiles.class);
 
-    public static void writeOrdersToFile(Collection<String> results, boolean valid, boolean ignored) {
+    public static void writeOrdersToFile(Collection<String> results, boolean valid, boolean ignored, boolean backUp) {
 
-        if (valid) filePath = init(VALID_ORDERS);
-        if (ignored) filePath = init(IGNORED_ORDERS);
+        if (!backUp) {
+            if (valid) filePath = init(VALID_ORDERS);
+            if (ignored) filePath = init(IGNORED_ORDERS);
+        } else {
+            if (valid) filePath = init(BACKUP_VALID_ORDERS);
+            if (ignored) filePath = init(BACKUP_IGNORED_ORDERS);
+        }
 
         // Check if the folder exists
         File directory = new File(SOURCE_DIR);
@@ -67,6 +72,11 @@ public abstract class OrdersFiles extends FileBase{
         } catch (IOException e) {
             logger.error(e.getMessage());
         }
+
+        //remember old state
+        if (valid) writeOrdersToFile(orders, true, false,true);
+        if (ignored) writeOrdersToFile(orders, false, true,true);
+
         return orders;
     }
 }
