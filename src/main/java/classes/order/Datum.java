@@ -3,6 +3,7 @@ package classes.order;
 import classes.adapter.PrepsInShop;
 import sftpreader.shopPrice.PriceItem;
 
+import java.util.List;
 import java.util.Objects;
 
 public class Datum {
@@ -11,7 +12,7 @@ public class Datum {
     private double quant;
     private double price;
     private PrepsInShop api;
-    private PriceItem sftp;
+    private List<PriceItem> sftp;
     private long priceTime;
     private String drugInfo;
 
@@ -38,11 +39,11 @@ public class Datum {
         this.api = api;
     }
 
-    public PriceItem getSftp() {
+    public List<PriceItem> getSftp() {
         return sftp;
     }
 
-    public void setSftp(PriceItem sftp) {
+    public void setSftp(List<PriceItem> sftp) {
         this.sftp = sftp;
     }
 

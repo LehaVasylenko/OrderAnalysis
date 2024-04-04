@@ -63,17 +63,17 @@ public class SftpManager implements ISftpManager {
         return shopPrice;
     }
     @Override
-    public PriceItem getItemByShopAndId(String idShop, String idDrug) {
-        PriceItem result = null;
+    public List<PriceItem> getItemByShopAndId(String idShop, String idDrug) {
+        List <PriceItem> result = new ArrayList<>();
         float quant = 0;
         String time = "";
         for (ShopPrice shopPrice: this.shopPrice) {
             if (shopPrice.getShopId().equalsIgnoreCase(idShop)) {
                 try {
                     result = shopPrice.getItemById(idDrug);
-                    result.getLink().setId(convertTime(shopPrice.getPriceTime()));
+                    result.get(0).getLink().setId(convertTime(shopPrice.getPriceTime()));
                 } catch (Exception e) {
-                    result.getLink().setId("No time");
+                    result.get(0).getLink().setId("No time");
                     logger.error("No time available for " + shopPrice.getShopId());
                 }
             }

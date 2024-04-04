@@ -1,0 +1,29 @@
+
+
+java:S1192"NDefine a constant instead of duplicating this literal " received at " 3 times.(ç©Ã‘ıÿÿÿÿJ$d3af32eb-4f99-422f-a9ec-b2afb6fc9ae1
+Š
+java:S1192a"IDefine a constant instead of duplicating this literal "Canceled" 4 times.(…±ğÓúÿÿÿÿJ$c283aee3-0694-45d0-b286-f73215175fc1
+¥
+java:S1319!"iThe type of "newOrders" should be an interface such as "List" rather than the implementation "ArrayList".(®ÙÔ…J$021aedb8-221a-4d0e-9f93-6131b8ea2980
+]
+java:S1643e"Use a StringBuilder instead.(Ñò¾£ùÿÿÿÿJ$91ee132c-59c6-4258-b5d8-4ce9b0ac004e
+]
+java:S1643y"Use a StringBuilder instead.(Ñò¾£ùÿÿÿÿJ$b75b72d4-6b07-4ff3-9d2e-3998b8a9b30d
+	java:S116"RRename this field "HOURS24" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š±æÔJ$82a3d515-aa0c-4380-9873-0f0e3b543ac5
+	java:S116"RRename this field "HOURS48" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ´úJ$8d4fcc4e-adf3-45d6-bbd9-80f1184353e2
+]
+java:S1170"!Make this final field static too.(Š±æÔJ$1603ecc4-aabd-4f06-802e-c3980e29197c
+]
+java:S1170"!Make this final field static too.(Ÿ´úJ$87c6c102-7ba9-4fc2-abe4-d1eec9f854da
+‚
+java:S3457/"AFormat specifiers should be used instead of string concatenation.(µ£è¿ÿÿÿÿÿJ$7db6f0d2-8812-44c0-950f-6fba7a6e1b59
+‚
+java:S34576"AFormat specifiers should be used instead of string concatenation.(µ£è¿ÿÿÿÿÿJ$e9f3f330-7159-4daa-9838-220809335fa1
+‚
+java:S3457<"AFormat specifiers should be used instead of string concatenation.(µ£è¿ÿÿÿÿÿJ$0e3c8b49-f6d8-46e1-95dd-3afb1135f44b
+“
+java:S3776L"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(Ğ»¿ûıÿÿÿÿJ$b8da332a-ede1-4825-8282-31e713fdde92
+q
+java:S1128"0Remove this unused import 'interfaces.IGetShop'.(¥Ş“õşÿÿÿÿJ$2bbed572-6b5f-445c-9f14-f093484284ff
+l
+java:S1144æ"/Remove this unused private "freshOrder" method.(¿å™J$a4cbe599-3b89-48d5-b1a0-25f2cdf3257b

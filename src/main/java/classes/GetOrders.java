@@ -116,9 +116,7 @@ public class GetOrders extends Spec implements IOrders {
         temp.addAll(checkedOrders);
         this.ignoredOrders = new ArrayList<>(temp);
 
-        temp = new HashSet<>(this.notCompletedOrders);
-        temp.addAll(notCompletedNew);
-        this.notCompletedOrders = new ArrayList<>(temp);
+        this.notCompletedOrders = notCompletedNew;
 
         writeOrdersToFile(this.ignoredOrders, false, true, false);
         writeOrdersToFile(this.notCompletedOrders, true, false, false);

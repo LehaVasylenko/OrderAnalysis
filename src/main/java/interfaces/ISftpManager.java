@@ -7,5 +7,5 @@ import java.util.List;
 
 public interface ISftpManager {
     List<ShopPrice> getShopPrice();
-    PriceItem getItemByShopAndId(String idShop, String idDrug);
+    List<PriceItem> getItemByShopAndId(String idShop, String idDrug);
 }

@@ -1,11 +1,11 @@
 package sftpreader.shopPrice;
 
 public class Link {
-    private String id;
-    private String id_link;
-    private String id_catg;
-    private String id_stat;
-    private String id_drug;
+    private String id = "";
+    private String id_link = "";
+    private String id_catg = "";
+    private String id_stat = "";
+    private String id_drug = "";
 
     public String getId_stat() {
         return id_stat;

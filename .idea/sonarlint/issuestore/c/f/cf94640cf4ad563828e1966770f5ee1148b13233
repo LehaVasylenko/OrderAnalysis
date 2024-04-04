@@ -1,0 +1,6 @@
+
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(íîª’8ãÎê1J$5a22c5e4-7c88-424a-837c-9c3131b6627b
+‰
+java:S3457>"AFormat specifiers should be used instead of string concatenation.(ôÄµÀùÿÿÿÿ8œãÎê1J$6e45c332-2792-4edc-a759-dbbc9542066b
+x
+java:S1128"0Remove this unused import 'classes.ExcelWriter'.(òÑ˜Ëùÿÿÿÿ8Ì¹ãÎê1J$35ae3950-0f15-4308-bf70-ee7745bc7940

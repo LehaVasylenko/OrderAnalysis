@@ -1,0 +1,6 @@
+
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾ƒˆÚ8‹Ğ¿Êê1
+r	java:S117A"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®°ìŒúÿÿÿÿ8ŒĞ¿Êê1
+m	java:S116"QRename this field "ext_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ½•8—Ğ¿Êê1
+o	java:S100A"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®°ìŒúÿÿÿÿ8Ğ¿Êê1
+j	java:S100P"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö›­è8ŸĞ¿Êê1

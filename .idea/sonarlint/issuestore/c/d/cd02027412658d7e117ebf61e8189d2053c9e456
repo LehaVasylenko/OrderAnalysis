@@ -1,0 +1,15 @@
+
+\
+java:S1192?"FDefine a constant instead of duplicating this literal "File " 3 times.(„·ÒÕ
+P
+java:S1141:"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+M
+java:S2629L"7Use the built-in formatting to construct this argument.(ÏÐ†Ø
+W
+java:S3457?"AFormat specifiers should be used instead of string concatenation.(„·ÒÕ
+\
+java:S3457J"AFormat specifiers should be used instead of string concatenation.(¾Åßëþÿÿÿÿ
+W
+java:S3457L"AFormat specifiers should be used instead of string concatenation.(ÏÐ†Ø
+W
+java:S3457U"AFormat specifiers should be used instead of string concatenation.(É¾Ö“

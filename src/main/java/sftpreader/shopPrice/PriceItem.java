@@ -1,12 +1,12 @@
 package sftpreader.shopPrice;
 
 public class PriceItem {
-    private String id;
-    private String name;
-    private String home;
-    private Double quant;
-    private Float price;
-    private Float price_cntr;
+    private String id = "";
+    private String name = "";
+    private String home = "";
+    private Double quant = 0.0;
+    private Float price = 0.0F;
+    private Float price_cntr = 0.0F;
     private int pfactor;
     private Link link;
 

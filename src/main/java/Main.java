@@ -3,7 +3,6 @@ import classes.ExcelWriter;
 import classes.GetOrders;
 import classes.OrderFilter;
 import interfaces.IOrders;
-import interfaces.ISftpManager;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import sftpreader.SftpManager;

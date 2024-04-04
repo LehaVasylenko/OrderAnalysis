@@ -1,0 +1,8 @@
+
+Œ	java:S117+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ï™ÕJ$807d1265-bc24-4e43-9904-24afd8ced9d7
+Œ	java:S117R"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íñÁJ$16108045-eb51-470a-bbaa-a3cd962089ac
+•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(íîª’J$b0b8f7d4-ea0e-470e-8951-6353556d42d7
+•	java:S116	"URename this field "price_cntr" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(á˜æ’şÿÿÿÿJ$61b5611a-824f-40d4-8e37-f47ff55e73ee
+|	java:S107+"AConstructor has 8 parameters, which is greater than 7 authorized.(ï™ÕJ$95a1aeed-05db-4acd-bba8-d885e49583b3
+ˆ	java:S100N"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®¢‚OJ$30c437aa-4095-441a-a871-d56f12518c52
+‰	java:S100R"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íñÁJ$997f90d1-a827-4344-aca5-0a8680796496
