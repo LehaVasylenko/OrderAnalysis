@@ -166,7 +166,9 @@ public class ExcelWriter {
                     row.createCell(11).setCellValue(log[i].getReason());
 
                     try {
+                        int shownItem = 0;
                         for (Datum items : log[i].getData()) {
+                            shownItem++;
                             try {
                                 row.createCell(12).setCellValue(items.getId());
                             } catch (Exception e) {
@@ -216,7 +218,7 @@ public class ExcelWriter {
 
                             int k = 0;
                             for (PriceItem priceItem: items.getSftp()) {
-                                if (k > 0) {
+                                if (k > 1) {
                                     System.out.println("azaza!!!");
                                 }
                                 k*=5;
@@ -256,6 +258,10 @@ public class ExcelWriter {
                                 }
 
                                 k++;
+                            }
+
+                            if (shownItem < log[i].getData().size() - 1) {
+                                row = sheet.createRow(rowIndex++);
                             }
                         }
                     } catch (Exception e) {
