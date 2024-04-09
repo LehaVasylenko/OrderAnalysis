@@ -1,22 +1,22 @@
 
 s
-java:S2629."7Use the built-in formatting to construct this argument.(÷ÄáJ$7b13d5e5-686f-4aea-abc6-a239ce9fd2b9
+java:S2629."7Use the built-in formatting to construct this argument.(÷ÄáJ$5410b903-ee2c-4183-94f2-ea3f6acf92c6
 s
-java:S2629/"7Use the built-in formatting to construct this argument.(•‘—…J$4facb4b8-bd23-431f-bf78-18219929f46e
+java:S2629/"7Use the built-in formatting to construct this argument.(•‘—…J$bd5699cc-cc52-41cc-9f21-7451c9498baf
 r
-java:S2629["7Use the built-in formatting to construct this argument.(á–”=J$7a059eef-aa3e-4f5b-ab09-1a3ee4a6efef
+java:S2629["7Use the built-in formatting to construct this argument.(á–”=J$bb47a280-f795-4992-ab45-a45da9bc1186
 ˜
-java:S2629\"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(ÑÛ”ôJ$28889518-24f7-4316-918c-c9177f76cc27
-“	java:S116"SRename this field "CAPACITY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼³“‘ûÿÿÿÿJ$09e8147e-866b-4593-9475-8ea0ccf0e5f3
+java:S2629\"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(ÑÛ”ôJ$f564fc9d-14e0-451f-a9e4-5218552cca70
+“	java:S116"SRename this field "CAPACITY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼³“‘ûÿÿÿÿJ$8858d14e-49ca-44f2-b465-2f90d679caf8
 b
-java:S1170"!Make this final field static too.(¼³“‘ûÿÿÿÿJ$214cd867-ebd9-4275-98de-e969e9707f2c
+java:S1170"!Make this final field static too.(¼³“‘ûÿÿÿÿJ$655299ae-1e4a-40c6-a7c9-d21e0486cd3d
 }
-java:S3457."AFormat specifiers should be used instead of string concatenation.(÷ÄáJ$a218a8e6-7dd5-433b-8277-e3dfe054bf7d
+java:S3457."AFormat specifiers should be used instead of string concatenation.(÷ÄáJ$a351e2ef-486c-4b94-9951-df498ba6ffe7
 }
-java:S3457/"AFormat specifiers should be used instead of string concatenation.(•‘—…J$d929ba57-5ee2-41e9-a479-ecdd27af1dd7
+java:S3457/"AFormat specifiers should be used instead of string concatenation.(•‘—…J$5917b9c0-b3e2-47a5-af69-a5d0c0c45562
 |
-java:S3457["AFormat specifiers should be used instead of string concatenation.(á–”=J$6978ccdc-051d-4c14-8f2e-0a65c044295b
+java:S3457["AFormat specifiers should be used instead of string concatenation.(á–”=J$562ee956-27ef-4340-99ac-2eb1d95fbfab
 }
-java:S3457\"AFormat specifiers should be used instead of string concatenation.(ÑÛ”ôJ$1bff6278-8657-4b82-844c-43ef764f6ed1
+java:S3457\"AFormat specifiers should be used instead of string concatenation.(ÑÛ”ôJ$84215f30-e1b5-43a0-ab49-bf8ac893d796
 ‚
-java:S3457n"AFormat specifiers should be used instead of string concatenation.(Å‘„íüÿÿÿÿJ$014d651c-0078-4b95-b426-40cffcd519ff
+java:S3457n"AFormat specifiers should be used instead of string concatenation.(Å‘„íüÿÿÿÿJ$6b92b8a5-82ec-477a-8584-926335f39878

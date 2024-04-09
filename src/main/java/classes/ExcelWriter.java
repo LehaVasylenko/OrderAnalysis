@@ -165,8 +165,8 @@ public class ExcelWriter {
                     row.createCell(10).setCellValue(log[i].getState());
                     row.createCell(11).setCellValue(log[i].getReason());
 
+                    int shownItem = 0;
                     try {
-                        int shownItem = 0;
                         for (Datum items : log[i].getData()) {
                             shownItem++;
                             try {
@@ -260,7 +260,7 @@ public class ExcelWriter {
                                 k++;
                             }
 
-                            if (shownItem < log[i].getData().size() - 1) {
+                            if (shownItem < log[i].getData().size()) {
                                 row = sheet.createRow(rowIndex++);
                             }
                         }
