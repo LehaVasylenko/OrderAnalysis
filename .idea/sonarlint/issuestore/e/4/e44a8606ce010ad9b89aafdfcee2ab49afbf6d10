@@ -1,9 +1,9 @@
 
 ]
-java:S1220""Move this file to a named package.8•ÚØÈê1J$236bee7d-1ec7-4f59-b17c-72a27fe53906
+java:S1220""Move this file to a named package.8•ÚØÈê1J$570d3046-2763-4ab2-a8d2-5bf2ae49cd21
 }
-java:S1854":Remove this useless assignment to local variable "writer".(ë²ç½8šÚØÈê1J$43f3ad2a-ad9f-49a2-8db3-27adec4827f2
+java:S1854":Remove this useless assignment to local variable "writer".(ë²ç½8šÚØÈê1J$484bb520-26eb-4f80-9c6f-19fb1a84a791
 n
-java:S1481"+Remove this unused "writer" local variable.(ë²ç½8 ÚØÈê1J$9df47ba8-46c1-4281-afe9-80f2e29323d9
+java:S1481"+Remove this unused "writer" local variable.(ë²ç½8 ÚØÈê1J$92e4bd46-7f7d-4315-ae8b-27af40a1cc1d
 m
-java:S1068"*Remove this unused "logger" private field.( á©8¡ÚØÈê1J$38c1dc14-4cef-4dd5-86b6-e01dfe2f75b7
+java:S1068"*Remove this unused "logger" private field.( á©8¡ÚØÈê1J$a0433922-72f4-4ab3-b081-3a3749598589
