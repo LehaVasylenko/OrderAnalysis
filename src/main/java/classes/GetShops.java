@@ -40,7 +40,7 @@ public class GetShops extends Spec implements IGetShop {
                 .get()
                 .then()
                 .extract().response().as(ShowShops[].class);
-        logger.info("ShowShops count: " + this.shops.length);
+        logger.info("ShowShops count: {}", this.shops.length);
     }
 
     private boolean isFreshPrice (String date) {

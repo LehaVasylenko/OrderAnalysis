@@ -27,3 +27,7 @@ V
 ,src/main/java/sftpreader/shopPrice/Link.java,5\8\58b809613beae04d1e0d966725d999bb715b282f
 a
 1src/main/java/sftpreader/shopPrice/PriceItem.java,f\1\f1b9110fef0ae669591b36719542c4296dfe6308
+S
+#src/main/java/classes/GetShops.java,e\6\e631e39080d293a579fb2497b7409c9818f4f87c
+e
+5src/main/java/classes/adapter/RequestPrepsInShop.java,9\9\99d925de4b6cbb88d27f1d3cacbed0ebda661759

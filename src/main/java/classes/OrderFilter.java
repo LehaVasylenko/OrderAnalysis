@@ -127,52 +127,80 @@ public class OrderFilter extends Spec {
             }
         }
     }
+    private List<List<String>> splitList(List<String> originalList) {
+        int chunkSize = originalList.size() / Runtime.getRuntime().availableProcessors();
+        List<List<String>> resultList = new ArrayList<>();
+        int startIndex = 0;
+        for (int i = 0; i < 4; i++) {
+            int endIndex = Math.min(startIndex + chunkSize, originalList.size());
+            resultList.add(originalList.subList(startIndex, endIndex));
+            startIndex = endIndex;
+        }
+        return resultList;
+    }
 
     private void orderPreparator(ArrayList<String> newOrders) {
         this.ordersToCheck = new ArrayList<>(newOrders.size());
+        List<Thread> orderThread = new ArrayList<>(Runtime.getRuntime().availableProcessors());
 
-        for (int j = 0; j < newOrders.size(); j++) {
-            String message = "";
-            OrderLog[] orderLog = getOrderInfo(newOrders.get(j));
+        for (List<String> sublist: splitList(newOrders)) {
+            Runnable orders = () -> {
+                for (int j = 0; j < sublist.size(); j++) {
+                    String message = "";
+                    OrderLog[] orderLog = getOrderInfo(sublist.get(j));
 
-            //canceled orders and test = false
-            if (Arrays.stream(orderLog).filter(ol -> !ol.isTest())
-                    .anyMatch(ol -> ol.getState().equals("Canceled"))) {
-                message = j + ":" + newOrders.size() + ":" + newOrders.get(j) + ": " + orderLog[orderLog.length - 1].getShipping() + ": " + orderLog[orderLog.length - 1].getState() + " received at " + orderLog[orderLog.length - 1].convertTimestamp();
-                logger.info(message);
+                    //canceled orders and test = false
+                    if (Arrays.stream(orderLog).filter(ol -> !ol.isTest())
+                            .anyMatch(ol -> ol.getState().equals("Canceled"))) {
+                        message = j + ":" + newOrders.size() + ":" + newOrders.get(j) + ": " + orderLog[orderLog.length - 1].getShipping() + ": " + orderLog[orderLog.length - 1].getState() + " received at " + orderLog[orderLog.length - 1].convertTimestamp();
+                        logger.info(message);
 
-                this.ordersToCheck.add(new OrderList(GetShops.getInstance().getCorpById(orderLog[0].getId_shop()), orderLog));
+                        this.ordersToCheck.add(new OrderList(GetShops.getInstance().getCorpById(orderLog[0].getId_shop()), orderLog));
 
-                //next starts will ignore this order
-                this.ignorable.add(newOrders.get(j));
-            }
+                        //next starts will ignore this order
+                        this.ignorable.add(newOrders.get(j));
+                    }
 
-            //completed orders and test = false
-            if (Arrays.stream(orderLog).filter(ol -> !ol.isTest())
-                    .anyMatch(ol -> ol.getState().equals("Completed"))){
-                message = j + ":" + newOrders.size() + ":" + newOrders.get(j) + ": " + orderLog[orderLog.length - 1].getShipping() + ": " + orderLog[orderLog.length - 1].getState() + " received at " + orderLog[orderLog.length - 1].convertTimestamp();
-                logger.info(message);
+                    //completed orders and test = false
+                    if (Arrays.stream(orderLog).filter(ol -> !ol.isTest())
+                            .anyMatch(ol -> ol.getState().equals("Completed"))) {
+                        message = j + ":" + newOrders.size() + ":" + newOrders.get(j) + ": " + orderLog[orderLog.length - 1].getShipping() + ": " + orderLog[orderLog.length - 1].getState() + " received at " + orderLog[orderLog.length - 1].convertTimestamp();
+                        logger.info(message);
 
-                OrderList temp = new OrderList(orderLog);
-                temp.setIgnore(message);
-                this.ordersToCheck.add(temp);
+                        OrderList temp = new OrderList(orderLog);
+                        temp.setIgnore(message);
+                        this.ordersToCheck.add(temp);
 
-                //next starts will ignore this order
-                this.ignorable.add(newOrders.get(j));
-            }
+                        //next starts will ignore this order
+                        this.ignorable.add(newOrders.get(j));
+                    }
 
-            //intermediate state orders and test = false
-            if (Arrays.stream(orderLog).filter(ol -> !ol.isTest())
-                    .noneMatch(ol -> ol.getState().equals("Completed") || ol.getState().equals("Canceled"))) {
-                message = j + ":" + newOrders.size() + ":" + newOrders.get(j) + ": " + orderLog[orderLog.length - 1].getShipping() + ": " + orderLog[orderLog.length - 1].getState() + " received at " + orderLog[orderLog.length - 1].convertTimestamp();
-                logger.info(message);
+                    //intermediate state orders and test = false
+                    if (Arrays.stream(orderLog).filter(ol -> !ol.isTest())
+                            .noneMatch(ol -> ol.getState().equals("Completed") || ol.getState().equals("Canceled"))) {
+                        message = j + ":" + newOrders.size() + ":" + newOrders.get(j) + ": " + orderLog[orderLog.length - 1].getShipping() + ": " + orderLog[orderLog.length - 1].getState() + " received at " + orderLog[orderLog.length - 1].convertTimestamp();
+                        logger.info(message);
 
-                OrderList temp = new OrderList(orderLog);
-                temp.setIgnore(message);
-                this.ordersToCheck.add(temp);
+                        OrderList temp = new OrderList(orderLog);
+                        temp.setIgnore(message);
+                        this.ordersToCheck.add(temp);
 
-                //next starts will NOT ignore this order
-                this.toCheck.add(newOrders.get(j));
+                        //next starts will NOT ignore this order
+                        this.toCheck.add(newOrders.get(j));
+                    }
+                }
+            };
+
+            Thread temp = new Thread(orders);
+            temp.start();
+            orderThread.add(temp);
+        }
+
+        for (Thread thread: orderThread) {
+            try {
+                thread.join();
+            } catch (InterruptedException e) {
+                logger.error("Order thread Interrupted Error: {}", e.getMessage());
             }
         }
     }

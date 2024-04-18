@@ -43,8 +43,8 @@ public class GetOrders extends Spec implements IOrders {
         dateEnd = end.format(formatter);
 
         // Print the result
-        logger.info("Start Date: " + dateStart);
-        logger.info("End Date: " + dateEnd);
+        logger.info("Start Date: {}", dateStart);
+        logger.info("End Date: {}", dateEnd);
     }
 
     public GetOrders(int daysBack) {
@@ -88,8 +88,8 @@ public class GetOrders extends Spec implements IOrders {
             unique.add(orders[i].getOrder_id_c());
         }
 
-        logger.info("Orders number: "+jsonLines.length);
-        logger.info("Unique orders number: " + unique.size());
+        logger.info("Orders number: {}", jsonLines.length);
+        logger.info("Unique orders number: {}", unique.size());
 
         this.newOrdersNumbers = new ArrayList<>(unique);
         this.newOrdersNumbers.trimToSize();
@@ -107,7 +107,7 @@ public class GetOrders extends Spec implements IOrders {
         temp.addAll(this.notCompletedOrders);
         this.newOrdersNumbers = new ArrayList<>(temp);
 
-        logger.info("Final orders number: " + this.newOrdersNumbers.size());
+        logger.info("Final orders number: {}", this.newOrdersNumbers.size());
         return this.newOrdersNumbers;
     }
 

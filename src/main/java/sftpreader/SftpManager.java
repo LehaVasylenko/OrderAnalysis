@@ -11,23 +11,31 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 import static sftpreader.FileReader.readJsonArrayFromFile;
 
 public class SftpManager implements ISftpManager {
     private static final Logger logger = LoggerFactory.getLogger(SftpManager.class);
     private List<ShopPrice> shopPrice;
+    private ExecutorService executor = Executors.newSingleThreadExecutor();
 
     public SftpManager(List<String> shops) {
         this.shopPrice = new ArrayList<>();
-        shops.forEach(shop -> {
-            this.shopPrice.add(new ShopPrice(shop));
-        });
+        shops.forEach(shop -> this.shopPrice.add(new ShopPrice(shop)));
 
         download();
         extract();
         read();
-        delete();
+
+        Callable<Void> delete = () -> {
+             delete();
+             return null;
+        };
+        executor.submit(delete);
+        executor.shutdown();
     }
 
     private void download() {
@@ -35,7 +43,7 @@ public class SftpManager implements ISftpManager {
             SFTP sftp = new SFTP(this.shopPrice, 24 * 7);
             this.shopPrice = sftp.getFiles();
         } catch (IOException e) {
-            logger.error("Error downloading from SFTP: " + e.getCause());
+            logger.error("Error downloading from SFTP: {}", e.getMessage());
         }
     }
 
@@ -47,9 +55,9 @@ public class SftpManager implements ISftpManager {
         for (ShopPrice shop: this.shopPrice) {
             try {
                 shop.setPriceList(readJsonArrayFromFile(shop.getShopId()));
-                logger.info("File " + shop.getShopId() + " read successfully!");
+                logger.info("File {} read successfully!", shop.getShopId());
             } catch (IOException e) {
-                logger.error("Error reading " + shop.getShopId());
+                logger.error("Error reading {}", shop.getShopId());
             }
         }
     }
@@ -74,7 +82,7 @@ public class SftpManager implements ISftpManager {
                     result.get(0).getLink().setId(convertTime(shopPrice.getPriceTime()));
                 } catch (Exception e) {
                     result.get(0).getLink().setId("No time");
-                    logger.error("No time available for " + shopPrice.getShopId());
+                    logger.error("No time available for {}", shopPrice.getShopId());
                 }
             }
         }

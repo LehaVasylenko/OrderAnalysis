@@ -13,10 +13,12 @@ import sftpreader.shopPrice.PriceItem;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
 
 import static foldedCreator.Folder.createFolderIfNotExists;
 
@@ -25,11 +27,13 @@ public class ExcelWriter {
     private static final Logger logger = LoggerFactory.getLogger(ExcelWriter.class);
     private String backUpPath;
     private String reportPath;
+
+    private static final ExecutorService executor = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors());
     private ArrayList<PhoneBase> excelReader() {
         String filePath = "phoneBase/base.xlsx";
         ArrayList<PhoneBase> dataBase = new ArrayList<>();
 
-        try (FileInputStream fileInputStream = new FileInputStream(new File(filePath));
+        try (FileInputStream fileInputStream = new FileInputStream(filePath);
              Workbook workbook = new XSSFWorkbook(fileInputStream)) {
 
             Sheet sheet = workbook.getSheetAt(0); // Assuming data is in the first sheet
@@ -47,7 +51,7 @@ public class ExcelWriter {
             }
 
         } catch (Exception e) {
-            logger.error("Error reading phone base: " + e.getMessage());
+            logger.error("Error reading phone base: {}", e.getMessage());
         }
         return dataBase;
     }
@@ -88,7 +92,7 @@ public class ExcelWriter {
             createFolderIfNotExists(this.reportPath);
 
         } catch (Exception e) {
-            logger.error("Bad deals with a folder: " + e.getMessage());
+            logger.error("Bad deals with a folder: {}",e.getMessage());
         }
 
     }
@@ -98,9 +102,15 @@ public class ExcelWriter {
         folderPreparation();
 
         for (List<OrderList> ordersByCorp: orderList) {
-            writeToExcel(ordersByCorp);
+            executor.submit(() -> writeToExcel(ordersByCorp));
         }
 
+        executor.shutdown();
+        try {
+            executor.awaitTermination(Long.MAX_VALUE, TimeUnit.NANOSECONDS);
+        } catch (InterruptedException e) {
+            logger.error("Interrupted exception in Executor Service: {}", e.getMessage());
+        }
     }
 
     private void writeToExcel(List<OrderList> orders) {
@@ -173,7 +183,7 @@ public class ExcelWriter {
                                 row.createCell(12).setCellValue(items.getId());
                             } catch (Exception e) {
                                 row.createCell(12).setCellValue(0);
-                                logger.error("ID in " + rowIndex + " didn't received: " + e.getMessage());
+                                logger.error("ID in {} didn't received: {}", rowIndex, e.getMessage());
                             }
 
                             try {

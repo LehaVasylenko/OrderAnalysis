@@ -1,19 +1,9 @@
 
-n
-java:S1602",Remove useless curly braces around statement(²œ¢]8ø©¹Êê1J$850cc9f3-0a17-47f7-a2bf-61c8781b3172
-‰
-java:S3457&"AFormat specifiers should be used instead of string concatenation.(à…½÷ÿÿÿÿÿ8ü©¹Êê1J$dac21203-348f-45cf-99bc-e3f2e826dcfc
-„
-java:S34572"AFormat specifiers should be used instead of string concatenation.(¿™å8ş©¹Êê1J$684572fe-b5b0-4081-9ed8-e0bb991aed68
-‰
-java:S34574"AFormat specifiers should be used instead of string concatenation.(Ç”íœşÿÿÿÿ8ÿ©¹Êê1J$2c9e7a44-f7b0-4472-a539-95df864d4414
 l
-java:S2440:"*Remove this instantiation of "FileEraser".(ëà 8€ª¹Êê1J$0a303636-5288-405a-9b93-8f8acc5e48c3
+java:S2440B"*Remove this instantiation of "FileEraser".(ëà 8Ÿ‚†ï1J$4c29cd09-ee8d-4b87-b90e-42fd0e4102af
 m
-java:S1481D"*Remove this unused "quant" local variable.(¿¯˜Ô8ƒª¹Êê1J$6974fa1e-c358-4e48-a837-8d141df3ec82
+java:S1481L"*Remove this unused "quant" local variable.(¿¯˜Ô8 ‚†ï1J$7c612478-bfb1-4644-8c98-6e1e8230880a
 q
-java:S1481E")Remove this unused "time" local variable.(¡„ÑŠıÿÿÿÿ8ƒª¹Êê1J$8b3a96e8-debf-4655-9a68-a8b32aa58a40
+java:S1481M")Remove this unused "time" local variable.(¡„ÑŠıÿÿÿÿ8 ‚†ï1J$b55d74e8-e46b-4cb8-aec6-176714f79f8c
 …
-java:S1117F"=Rename "shopPrice" which hides the field declared at line 19.(µçÑ«ıÿÿÿÿ8„ª¹Êê1J$ed5996ea-0dc7-412d-8f47-3e87765a9041
-‰
-java:S3457M"AFormat specifiers should be used instead of string concatenation.(”Ó½´ûÿÿÿÿ8…ª¹Êê1J$68b9fb5d-1abf-47e2-96ef-f40089685111
+java:S1117N"=Rename "shopPrice" which hides the field declared at line 22.(µçÑ«ıÿÿÿÿ8¡‚†ï1J$46fcf61d-b7e0-4f35-878d-fdaea7c01e15

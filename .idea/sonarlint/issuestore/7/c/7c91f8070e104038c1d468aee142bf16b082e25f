@@ -1,29 +1,33 @@
 
-
-java:S1192"NDefine a constant instead of duplicating this literal " received at " 3 times.(ç©Ã‘ıÿÿÿÿJ$d3af32eb-4f99-422f-a9ec-b2afb6fc9ae1
-Š
-java:S1192a"IDefine a constant instead of duplicating this literal "Canceled" 4 times.(…±ğÓúÿÿÿÿJ$c283aee3-0694-45d0-b286-f73215175fc1
-¥
-java:S1319!"iThe type of "newOrders" should be an interface such as "List" rather than the implementation "ArrayList".(®ÙÔ…J$021aedb8-221a-4d0e-9f93-6131b8ea2980
-]
-java:S1643e"Use a StringBuilder instead.(Ñò¾£ùÿÿÿÿJ$91ee132c-59c6-4258-b5d8-4ce9b0ac004e
-]
-java:S1643y"Use a StringBuilder instead.(Ñò¾£ùÿÿÿÿJ$b75b72d4-6b07-4ff3-9d2e-3998b8a9b30d
-	java:S116"RRename this field "HOURS24" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š±æÔJ$82a3d515-aa0c-4380-9873-0f0e3b543ac5
-	java:S116"RRename this field "HOURS48" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ´úJ$8d4fcc4e-adf3-45d6-bbd9-80f1184353e2
-]
-java:S1170"!Make this final field static too.(Š±æÔJ$1603ecc4-aabd-4f06-802e-c3980e29197c
-]
-java:S1170"!Make this final field static too.(Ÿ´úJ$87c6c102-7ba9-4fc2-abe4-d1eec9f854da
-‚
-java:S3457/"AFormat specifiers should be used instead of string concatenation.(µ£è¿ÿÿÿÿÿJ$7db6f0d2-8812-44c0-950f-6fba7a6e1b59
-‚
-java:S34576"AFormat specifiers should be used instead of string concatenation.(µ£è¿ÿÿÿÿÿJ$e9f3f330-7159-4daa-9838-220809335fa1
-‚
-java:S3457<"AFormat specifiers should be used instead of string concatenation.(µ£è¿ÿÿÿÿÿJ$0e3c8b49-f6d8-46e1-95dd-3afb1135f44b
-“
-java:S3776L"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(Ğ»¿ûıÿÿÿÿJ$b8da332a-ede1-4825-8282-31e713fdde92
-q
-java:S1128"0Remove this unused import 'interfaces.IGetShop'.(¥Ş“õşÿÿÿÿJ$2bbed572-6b5f-445c-9f14-f093484284ff
-l
-java:S1144æ"/Remove this unused private "freshOrder" method.(¿å™J$a4cbe599-3b89-48d5-b1a0-25f2cdf3257b
+—
+java:S1192›"NDefine a constant instead of duplicating this literal " received at " 3 times.(ç©Ã‘ıÿÿÿÿ8ÙùÑ…ï1J$7fb25b00-cd66-4e78-9a63-f069132cb89d
+‘
+java:S1192a"IDefine a constant instead of duplicating this literal "Canceled" 4 times.(…±ğÓúÿÿÿÿ8ÚùÑ…ï1J$38d5ca25-57be-4abe-8346-69608035e713
+¬
+java:S1319!"iThe type of "newOrders" should be an interface such as "List" rather than the implementation "ArrayList".(®ÙÔ…8ÛùÑ…ï1J$cea45cb8-7394-4a6b-8161-6574bc3224bd
+d
+java:S1643e"Use a StringBuilder instead.(Ñò¾£ùÿÿÿÿ8ßùÑ…ï1J$c46c277c-9ba4-4aa9-a4eb-c99c272ec7d3
+d
+java:S1643y"Use a StringBuilder instead.(Ñò¾£ùÿÿÿÿ8ßùÑ…ï1J$b215457f-da8c-453e-9057-dc9c8bfa32d9
+”	java:S116"RRename this field "HOURS24" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š±æÔ8ÅûÑ…ï1J$a914696b-9f54-4e44-a1cd-7a7a37fc7b1e
+”	java:S116"RRename this field "HOURS48" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ´ú8ÅûÑ…ï1J$eebac12f-95f5-4647-9621-b560246b150a
+d
+java:S1170"!Make this final field static too.(Š±æÔ8ÆûÑ…ï1J$f980ec1b-299c-4765-8864-568a4b5e0216
+d
+java:S1170"!Make this final field static too.(Ÿ´ú8ÆûÑ…ï1J$c6efa73a-5026-4d93-bfbf-1c37626b9b0f
+‰
+java:S3457/"AFormat specifiers should be used instead of string concatenation.(µ£è¿ÿÿÿÿÿ8ÎûÑ…ï1J$eb277a67-959e-48e0-adbf-9a972e4cf5a7
+‰
+java:S34576"AFormat specifiers should be used instead of string concatenation.(µ£è¿ÿÿÿÿÿ8ÏûÑ…ï1J$1aa47421-3549-4f72-a310-a4557db9fca1
+‰
+java:S3457<"AFormat specifiers should be used instead of string concatenation.(µ£è¿ÿÿÿÿÿ8ĞûÑ…ï1J$cb9fc468-8f3b-4de4-90ce-f4b4fecbd8be
+š
+java:S3776L"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(Ğ»¿ûıÿÿÿÿ8ÓûÑ…ï1J$8185b0c1-bc83-4c13-8a9d-cb28a80e83a4
+›
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(¹ÆşÆşÿÿÿÿ8ÛûÑ…ï1J$ba619699-2751-4f9f-85b2-25832b1ee0ff
+¢
+java:S2142Ê"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8‹ÕÔ…ï1J$35f45013-2eac-40f9-b6d8-8c03bcd4e5a4
+x
+java:S1128"0Remove this unused import 'interfaces.IGetShop'.(¥Ş“õşÿÿÿÿ8ğûÑ…ï1J$2c668409-ab67-4df4-b82b-243cd64f92a9
+s
+java:S1144‚"/Remove this unused private "freshOrder" method.(¿å™8ñûÑ…ï1J$7c65b052-7520-4e31-9ca4-e92b01c86902

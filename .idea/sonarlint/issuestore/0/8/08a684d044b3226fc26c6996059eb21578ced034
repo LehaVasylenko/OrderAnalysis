@@ -1,68 +1,62 @@
 
-~
-java:S1141™"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8Ó§ïë1J$ce975b69-1a27-4e38-8f50-b30d9cafa7cf
-~
-java:S1141©"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8Ó§ïë1J$439fd07c-d463-4c12-aec0-2bc0f536b6e4
-~
-java:S1141¬"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8“£×”ì1J$a5b4a1ae-d739-4a4d-a143-6b61e98e34ae
-~
-java:S1141³"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8”£×”ì1J$81be28ec-db08-48d6-b7b1-d2eee77638d3
-~
-java:S1141º"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8•£×”ì1J$143a2717-bddc-4523-b4c9-19c7830fded1
-~
-java:S1141Á"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8–£×”ì1J$9c4d2d53-6715-4723-b825-4bb60277ca1e
-~
-java:S1141Í"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8—£×”ì1J$206471e1-0109-4471-9e68-37f610945a7e
-~
-java:S1141Ô"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8˜£×”ì1J$5706693f-9d96-47d9-8724-67f32eb5a67d
-~
-java:S1141á"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8˜£×”ì1J$34c2e197-4537-434e-bdcb-5817fdba3078
-~
-java:S1141è"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8™£×”ì1J$dd1a8692-d06b-42b6-aafd-3204f1d0235c
-~
-java:S1141ï"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8š£×”ì1J$39551cc0-9a63-4130-9f30-164bf87b481e
-~
-java:S1141ö"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8š£×”ì1J$08bd5f5a-8aa8-4b65-960d-ec5dc9c029c3
-~
-java:S1141ı"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8›£×”ì1J$7fe224b4-1e82-40b0-87dc-26ba95fae6c9
-y
-java:S1141’"5Extract this nested try block into a separate method.(ˆ©î‹8›£×”ì1J$caa68364-0cd1-4fbc-8ae4-55867c3e9749
-‹
-java:S5361-"HReplace this call to "replaceAll()" by a call to the "replace()" method.(è©‚8œ¥§ïë1J$af475705-4954-4942-ac4c-972209866357
-„
-java:S34572"AFormat specifiers should be used instead of string concatenation.(æöê§8¡¥§ïë1J$c1846e4c-bebe-4536-925b-fff76e19d17d
-‰
-java:S3457["AFormat specifiers should be used instead of string concatenation.(ÚŸµúÿÿÿÿ8ª¥§ïë1J$40557a0c-6a95-43f9-8acf-20008414939d
-”
-java:S3776j"RRefactor this method to reduce its Cognitive Complexity from 96 to the 15 allowed.(´î¥)8°¥§ïë1J$4991c6a9-f5bf-4c18-906d-ed07880d4d7a
-„
-java:S3457°"AFormat specifiers should be used instead of string concatenation.(¾„Ñ8÷©×”ì1J$9b795a8a-f2f3-41f3-9aa4-3aa2c9de477b
-„
-java:S3457·"AFormat specifiers should be used instead of string concatenation.(Ó…Ú8ù©×”ì1J$f17f612f-4557-4602-972a-3bc32052f50c
-…
-java:S3457¾"AFormat specifiers should be used instead of string concatenation.(ı³õƒ8û©×”ì1J$0739121a-eb5a-453a-bd23-008321732262
-Š
-java:S3457Ñ"AFormat specifiers should be used instead of string concatenation.(•÷™–üÿÿÿÿ8ÿ©×”ì1J$bdd187e8-f019-459b-9b42-e0ba7d0aa02b
-…
-java:S3457Ø"AFormat specifiers should be used instead of string concatenation.(Ê“ÎÑ8ª×”ì1J$b6d132b6-f427-4c07-a5ce-381f7429fd4a
-m	java:S106Ş"+Replace this use of System.out by a logger.(Ì¨ú8„ª×”ì1J$1ebcfabe-5da6-433c-8ebc-9a3a602b44a3
-…
-java:S3457å"AFormat specifiers should be used instead of string concatenation.(üıšÔ8‡ª×”ì1J$2d257c83-e5a9-4427-8d42-dda90f79c5c2
-Š
-java:S3457ì"AFormat specifiers should be used instead of string concatenation.(¸ïı±ûÿÿÿÿ8Šª×”ì1J$bc44d254-0816-4c93-9575-9c7c8f68ed91
-Š
-java:S3457ó"AFormat specifiers should be used instead of string concatenation.(È‡œ§ûÿÿÿÿ8ª×”ì1J$b1f6e7b2-a675-4c9d-8666-b380ad92dc59
-Š
-java:S3457ú"AFormat specifiers should be used instead of string concatenation.(…êÉƒúÿÿÿÿ8‘ª×”ì1J$ca07784b-138e-4a56-ad73-7a094d2346f3
-Š
-java:S3457"AFormat specifiers should be used instead of string concatenation.(Ûš§ˆşÿÿÿÿ8•ª×”ì1J$20e4daef-55b1-41de-99d6-94b7a6973c1e
-…
-java:S3457Œ"AFormat specifiers should be used instead of string concatenation.(ÌÈïô8—ª×”ì1J$cf247438-3b95-428c-beef-7024c411ecbb
-…
-java:S3457–"AFormat specifiers should be used instead of string concatenation.(§äáú8£ª×”ì1J$edba8b36-8a89-4ed2-bad3-51d6cfa2d9d8
-Š
-java:S3457˜"AFormat specifiers should be used instead of string concatenation.(±÷£…ıÿÿÿÿ8¤ª×”ì1J$1f97a0c2-403b-4e9f-b77f-d7105ccd58f2
-Š
-java:S3457›"AFormat specifiers should be used instead of string concatenation.(±÷£…ıÿÿÿÿ8¦ª×”ì1J$962ecdfa-08d7-4d0b-8776-f967d095d30e
-x
-java:S1128"0Remove this unused import 'java.time.LocalDate'.(›‘¬èıÿÿÿÿ8öÏ©ïë1J$294e0305-264b-4bd4-b26a-06fce70c792f
+X
+java:S1141£"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8òÔ……ï1
+X
+java:S1141³"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8òÔ……ï1
+X
+java:S1141¶"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8óÔ……ï1
+X
+java:S1141½"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8óÔ……ï1
+X
+java:S1141Ä"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8óÔ……ï1
+X
+java:S1141Ë"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8óÔ……ï1
+X
+java:S1141×"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8óÔ……ï1
+X
+java:S1141Ş"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8óÔ……ï1
+X
+java:S1141ë"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8ôÔ……ï1
+X
+java:S1141ò"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8ôÔ……ï1
+X
+java:S1141ù"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8ôÔ……ï1
+X
+java:S1141€"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8ôÔ……ï1
+X
+java:S1141‡"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8ôÔ……ï1
+S
+java:S1141œ"5Extract this nested try block into a separate method.(ˆ©î‹8ôÔ……ï1
+e
+java:S53611"HReplace this call to "replaceAll()" by a call to the "replace()" method.(è©‚8—Ø……ï1
+{
+java:S2142o"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8¡Ø……ï1
+n
+java:S3776t"RRefactor this method to reduce its Cognitive Complexity from 96 to the 15 allowed.(´î¥)8¤Ø……ï1
+^
+java:S3457Á"AFormat specifiers should be used instead of string concatenation.(Ó…Ú8´Ø……ï1
+_
+java:S3457È"AFormat specifiers should be used instead of string concatenation.(ı³õƒ8¶Ø……ï1
+d
+java:S3457Û"AFormat specifiers should be used instead of string concatenation.(•÷™–üÿÿÿÿ8¹Ø……ï1
+_
+java:S3457â"AFormat specifiers should be used instead of string concatenation.(Ê“ÎÑ8ºØ……ï1
+G	java:S106è"+Replace this use of System.out by a logger.(Ì¨ú8»Ø……ï1
+_
+java:S3457ï"AFormat specifiers should be used instead of string concatenation.(üıšÔ8¼Ø……ï1
+d
+java:S3457ö"AFormat specifiers should be used instead of string concatenation.(¸ïı±ûÿÿÿÿ8½Ø……ï1
+d
+java:S3457ı"AFormat specifiers should be used instead of string concatenation.(È‡œ§ûÿÿÿÿ8¾Ø……ï1
+d
+java:S3457„"AFormat specifiers should be used instead of string concatenation.(…êÉƒúÿÿÿÿ8¿Ø……ï1
+d
+java:S3457‹"AFormat specifiers should be used instead of string concatenation.(Ûš§ˆşÿÿÿÿ8ÁØ……ï1
+_
+java:S3457–"AFormat specifiers should be used instead of string concatenation.(ÌÈïô8ÂØ……ï1
+_
+java:S3457 "AFormat specifiers should be used instead of string concatenation.(§äáú8ÇØ……ï1
+d
+java:S3457¢"AFormat specifiers should be used instead of string concatenation.(±÷£…ıÿÿÿÿ8ÈØ……ï1
+d
+java:S3457¥"AFormat specifiers should be used instead of string concatenation.(±÷£…ıÿÿÿÿ8ÈØ……ï1
