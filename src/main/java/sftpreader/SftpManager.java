@@ -20,7 +20,6 @@ import static sftpreader.FileReader.readJsonArrayFromFile;
 public class SftpManager implements ISftpManager {
     private static final Logger logger = LoggerFactory.getLogger(SftpManager.class);
     private List<ShopPrice> shopPrice;
-    private ExecutorService executor = Executors.newSingleThreadExecutor();
 
     public SftpManager(List<String> shops) {
         this.shopPrice = new ArrayList<>();
@@ -34,8 +33,11 @@ public class SftpManager implements ISftpManager {
              delete();
              return null;
         };
-        executor.submit(delete);
-        executor.shutdown();
+
+        try (ExecutorService executor = Executors.newSingleThreadExecutor()) {
+            executor.submit(delete);
+            executor.shutdown();
+        }
     }
 
     private void download() {
@@ -73,8 +75,6 @@ public class SftpManager implements ISftpManager {
     @Override
     public List<PriceItem> getItemByShopAndId(String idShop, String idDrug) {
         List <PriceItem> result = new ArrayList<>();
-        float quant = 0;
-        String time = "";
         for (ShopPrice shopPrice: this.shopPrice) {
             if (shopPrice.getShopId().equalsIgnoreCase(idShop)) {
                 try {

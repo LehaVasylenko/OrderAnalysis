@@ -1,9 +1,5 @@
 
 l
-java:S2440B"*Remove this instantiation of "FileEraser".(ëà 8Ÿ‚†ï1J$4c29cd09-ee8d-4b87-b90e-42fd0e4102af
-m
-java:S1481L"*Remove this unused "quant" local variable.(¿¯˜Ô8 ‚†ï1J$7c612478-bfb1-4644-8c98-6e1e8230880a
-q
-java:S1481M")Remove this unused "time" local variable.(¡„ÑŠıÿÿÿÿ8 ‚†ï1J$b55d74e8-e46b-4cb8-aec6-176714f79f8c
+java:S2440D"*Remove this instantiation of "FileEraser".(ëà 8Ÿ‚†ï1J$909992f2-dafc-4c21-8eac-1e2c3fa5691f
 …
-java:S1117N"=Rename "shopPrice" which hides the field declared at line 22.(µçÑ«ıÿÿÿÿ8¡‚†ï1J$46fcf61d-b7e0-4f35-878d-fdaea7c01e15
+java:S1117N"=Rename "shopPrice" which hides the field declared at line 22.(µçÑ«ıÿÿÿÿ8¡‚†ï1J$b7c04121-a58c-43c9-bc0f-26f01e85d679

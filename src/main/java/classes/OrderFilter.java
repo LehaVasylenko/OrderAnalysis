@@ -4,7 +4,6 @@ import classes.order.BookingBody;
 import classes.order.Datum;
 import classes.order.OrderLog;
 import classes.order.OrderList;
-import interfaces.IGetShop;
 import io.restassured.RestAssured;
 import org.jetbrains.annotations.NotNull;
 import org.slf4j.Logger;
@@ -25,12 +24,13 @@ public class OrderFilter extends Spec {
     private static final Logger logger = LoggerFactory.getLogger(OrderFilter.class);
     private final int HOURS24 = 24 * 60 * 60;
     private final int HOURS48 = HOURS24 * 2;
+    private final String CANCEL = "Canceled";
     private List<String> ignorable = new ArrayList<>();
     private List<String> toCheck = new ArrayList<>();
     private Set<OrderData> makeTest = new HashSet<>();
     private List<OrderList> ordersToCheck;
 
-    public OrderFilter(@NotNull ArrayList<String> newOrders) {
+    public OrderFilter(@NotNull List<String> newOrders) {
         orderPreparator(newOrders);
 
         this.ordersToCheck.stream()
@@ -44,20 +44,20 @@ public class OrderFilter extends Spec {
                             && GetShops.getInstance().isGammaShop(log[0].getId_shop())
                             && log[0].getShipping().equalsIgnoreCase("pickup")) {
                         order.setIgnore("more than 24 hours in gamma-55");
-                        logger.info(log[0].getId_order() + ": " + order.getIgnoreReason());
+                        logger.info("{}: {}", log[0].getId_order(), order.getIgnoreReason());
                     }
 
                     //48 hours in pick-up
                     if (timeDifference >= HOURS48
                             && log[0].getShipping().equalsIgnoreCase("pickup")) {
                         order.setIgnore("more than 48 hours for pickup");
-                        logger.info(log[0].getId_order() + ": " + order.getIgnoreReason());
+                        logger.info("{}: {}", log[0].getId_order(), order.getIgnoreReason());
                     }
 
                     //cancel reason 3
                     if (Arrays.stream(log).anyMatch(logitem -> logitem.getReason().equalsIgnoreCase("3"))) {
                         order.setIgnore("client ignored");
-                        logger.info(log[0].getId_order() + ": " + order.getIgnoreReason());
+                        logger.info("{}: {}", log[0].getId_order(), order.getIgnoreReason());
                     }
 
                     //cancel reason 1 || 2
@@ -80,7 +80,7 @@ public class OrderFilter extends Spec {
 
         //find a doubles
         for (int i = 0; i < this.ordersToCheck.size(); i++) {
-            String logMessage = "";
+            String logMessage;
 
             //get items in order
             OrderLog[] order1 = this.ordersToCheck.get(i).getOrder();
@@ -94,7 +94,7 @@ public class OrderFilter extends Spec {
                     ArrayList<Datum> items2order = order2[0].getData();
                     if (order1[0].equals(order2[0])
                             && items1order.get(0).equals(items2order.get(0))
-                            && Arrays.stream(order2).noneMatch(o -> o.getState().equalsIgnoreCase("Canceled"))
+                            && Arrays.stream(order2).noneMatch(o -> o.getState().equalsIgnoreCase(CANCEL))
                             && (Math.abs(order1[0].getTimestamp() - order2[0].getTimestamp()) <= time))
                     {
                         logMessage = order1[0].getAgent() + ": double click " + order1[0].getId_order() + " with ";
@@ -114,7 +114,7 @@ public class OrderFilter extends Spec {
                     ArrayList<Datum> items2order = order2[0].getData();
                     if (order1[0].equals(order2[0])
                             && items1order.get(0).equals(items2order.get(0))
-                            && Arrays.stream(order2).noneMatch(o -> o.getState().equalsIgnoreCase("Canceled"))
+                            && Arrays.stream(order2).noneMatch(o -> o.getState().equalsIgnoreCase(CANCEL))
                             && (Math.abs(order1[0].getTimestamp() - order2[0].getTimestamp()) <= time))
                     {
                         logMessage = order1[0].getAgent() + ": double click " + order1[0].getId_order() + " with ";
@@ -139,19 +139,20 @@ public class OrderFilter extends Spec {
         return resultList;
     }
 
-    private void orderPreparator(ArrayList<String> newOrders) {
+    private void orderPreparator(List<String> newOrders) {
+        final String COMPLETE = "Completed";
         this.ordersToCheck = new ArrayList<>(newOrders.size());
         List<Thread> orderThread = new ArrayList<>(Runtime.getRuntime().availableProcessors());
 
         for (List<String> sublist: splitList(newOrders)) {
             Runnable orders = () -> {
                 for (int j = 0; j < sublist.size(); j++) {
-                    String message = "";
+                    String message;
                     OrderLog[] orderLog = getOrderInfo(sublist.get(j));
 
                     //canceled orders and test = false
                     if (Arrays.stream(orderLog).filter(ol -> !ol.isTest())
-                            .anyMatch(ol -> ol.getState().equals("Canceled"))) {
+                            .anyMatch(ol -> ol.getState().equals(CANCEL))) {
                         message = j + ":" + newOrders.size() + ":" + newOrders.get(j) + ": " + orderLog[orderLog.length - 1].getShipping() + ": " + orderLog[orderLog.length - 1].getState() + " received at " + orderLog[orderLog.length - 1].convertTimestamp();
                         logger.info(message);
 
@@ -163,7 +164,7 @@ public class OrderFilter extends Spec {
 
                     //completed orders and test = false
                     if (Arrays.stream(orderLog).filter(ol -> !ol.isTest())
-                            .anyMatch(ol -> ol.getState().equals("Completed"))) {
+                            .anyMatch(ol -> ol.getState().equals(COMPLETE))) {
                         message = j + ":" + newOrders.size() + ":" + newOrders.get(j) + ": " + orderLog[orderLog.length - 1].getShipping() + ": " + orderLog[orderLog.length - 1].getState() + " received at " + orderLog[orderLog.length - 1].convertTimestamp();
                         logger.info(message);
 
@@ -177,7 +178,7 @@ public class OrderFilter extends Spec {
 
                     //intermediate state orders and test = false
                     if (Arrays.stream(orderLog).filter(ol -> !ol.isTest())
-                            .noneMatch(ol -> ol.getState().equals("Completed") || ol.getState().equals("Canceled"))) {
+                            .noneMatch(ol -> ol.getState().equals(COMPLETE) || ol.getState().equals(CANCEL))) {
                         message = j + ":" + newOrders.size() + ":" + newOrders.get(j) + ": " + orderLog[orderLog.length - 1].getShipping() + ": " + orderLog[orderLog.length - 1].getState() + " received at " + orderLog[orderLog.length - 1].convertTimestamp();
                         logger.info(message);
 

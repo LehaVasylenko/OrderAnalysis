@@ -38,7 +38,7 @@ public class ExcelAdapter extends Spec implements IExcelAdapter {
                         items.setDrugInfo(drugsInfo.getDrugData(items.getId()));
                     }
                 } catch (Exception e) {
-                    logger.error("Order " + log.getId_order() + ": Datum is null: " + e.getMessage());
+                    logger.error("Order {}: Datum is null: {}", log.getId_order(), e.getMessage());
                 }
             }
         }
@@ -73,7 +73,7 @@ public class ExcelAdapter extends Spec implements IExcelAdapter {
                         requestDrugsInfo.add(items.getId());
                     }
                 } catch (Exception e) {
-                    logger.error("Order " + log.getId_order() + ": Datum is null" + e.getMessage());
+                    logger.error("Order {}: Datum is null: {}", log.getId_order(), e.getMessage());
                 }
             }
         }
