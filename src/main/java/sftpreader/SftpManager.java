@@ -34,10 +34,9 @@ public class SftpManager implements ISftpManager {
              return null;
         };
 
-        try (ExecutorService executor = Executors.newSingleThreadExecutor()) {
+        ExecutorService executor = Executors.newSingleThreadExecutor();
             executor.submit(delete);
             executor.shutdown();
-        }
     }
 
     private void download() {

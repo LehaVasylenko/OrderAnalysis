@@ -44,6 +44,7 @@ public class OrderFilter extends Spec {
                             && GetShops.getInstance().isGammaShop(log[0].getId_shop())
                             && log[0].getShipping().equalsIgnoreCase("pickup")) {
                         order.setIgnore("more than 24 hours in gamma-55");
+                        this.ignorable.add(log[0].getId_order());
                         logger.info("{}: {}", log[0].getId_order(), order.getIgnoreReason());
                     }
 
@@ -51,21 +52,25 @@ public class OrderFilter extends Spec {
                     if (timeDifference >= HOURS48
                             && log[0].getShipping().equalsIgnoreCase("pickup")) {
                         order.setIgnore("more than 48 hours for pickup");
+                        this.ignorable.add(log[0].getId_order());
                         logger.info("{}: {}", log[0].getId_order(), order.getIgnoreReason());
                     }
 
                     //cancel reason 3
                     if (Arrays.stream(log).anyMatch(logitem -> logitem.getReason().equalsIgnoreCase("3"))) {
                         order.setIgnore("client ignored");
+                        this.ignorable.add(log[0].getId_order());
                         logger.info("{}: {}", log[0].getId_order(), order.getIgnoreReason());
                     }
 
                     //cancel reason 1 || 2
                     IntStream.range(0, log.length).filter(i -> log[i].getReason() != null).forEach(i -> {
                         if (log[i].getReason().equalsIgnoreCase("1")) {
+                            this.ignorable.add(log[0].getId_order());
                             log[i].getData().forEach(oD -> makeTest.add(new OrderData(log[i].getId_shop(), oD.getId(), true)));
                         }
                         if (log[i].getReason().equalsIgnoreCase("2")) {
+                            this.ignorable.add(log[0].getId_order());
                             log[i].getData().forEach(oD -> makeTest.add(new OrderData(log[i].getId_shop(), oD.getId(), false)));
                         }
                     });
@@ -153,19 +158,19 @@ public class OrderFilter extends Spec {
                     //canceled orders and test = false
                     if (Arrays.stream(orderLog).filter(ol -> !ol.isTest())
                             .anyMatch(ol -> ol.getState().equals(CANCEL))) {
-                        message = j + ":" + newOrders.size() + ":" + newOrders.get(j) + ": " + orderLog[orderLog.length - 1].getShipping() + ": " + orderLog[orderLog.length - 1].getState() + " received at " + orderLog[orderLog.length - 1].convertTimestamp();
+                        message = j + ":" + newOrders.size() + ":" + sublist.get(j) + ": " + orderLog[orderLog.length - 1].getShipping() + ": " + orderLog[orderLog.length - 1].getState() + " received at " + orderLog[orderLog.length - 1].convertTimestamp();
                         logger.info(message);
 
                         this.ordersToCheck.add(new OrderList(GetShops.getInstance().getCorpById(orderLog[0].getId_shop()), orderLog));
 
                         //next starts will ignore this order
-                        this.ignorable.add(newOrders.get(j));
+                        this.ignorable.add(sublist.get(j));
                     }
 
                     //completed orders and test = false
                     if (Arrays.stream(orderLog).filter(ol -> !ol.isTest())
                             .anyMatch(ol -> ol.getState().equals(COMPLETE))) {
-                        message = j + ":" + newOrders.size() + ":" + newOrders.get(j) + ": " + orderLog[orderLog.length - 1].getShipping() + ": " + orderLog[orderLog.length - 1].getState() + " received at " + orderLog[orderLog.length - 1].convertTimestamp();
+                        message = j + ":" + newOrders.size() + ":" + sublist.get(j) + ": " + orderLog[orderLog.length - 1].getShipping() + ": " + orderLog[orderLog.length - 1].getState() + " received at " + orderLog[orderLog.length - 1].convertTimestamp();
                         logger.info(message);
 
                         OrderList temp = new OrderList(orderLog);
@@ -173,13 +178,13 @@ public class OrderFilter extends Spec {
                         this.ordersToCheck.add(temp);
 
                         //next starts will ignore this order
-                        this.ignorable.add(newOrders.get(j));
+                        this.ignorable.add(sublist.get(j));
                     }
 
                     //intermediate state orders and test = false
                     if (Arrays.stream(orderLog).filter(ol -> !ol.isTest())
                             .noneMatch(ol -> ol.getState().equals(COMPLETE) || ol.getState().equals(CANCEL))) {
-                        message = j + ":" + newOrders.size() + ":" + newOrders.get(j) + ": " + orderLog[orderLog.length - 1].getShipping() + ": " + orderLog[orderLog.length - 1].getState() + " received at " + orderLog[orderLog.length - 1].convertTimestamp();
+                        message = j + ":" + newOrders.size() + ":" + sublist.get(j) + ": " + orderLog[orderLog.length - 1].getShipping() + ": " + orderLog[orderLog.length - 1].getState() + " received at " + orderLog[orderLog.length - 1].convertTimestamp();
                         logger.info(message);
 
                         OrderList temp = new OrderList(orderLog);
@@ -187,7 +192,7 @@ public class OrderFilter extends Spec {
                         this.ordersToCheck.add(temp);
 
                         //next starts will NOT ignore this order
-                        this.toCheck.add(newOrders.get(j));
+                        this.toCheck.add(sublist.get(j));
                     }
                 }
             };
