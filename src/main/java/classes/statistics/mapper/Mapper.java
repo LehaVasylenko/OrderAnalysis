@@ -39,8 +39,6 @@ public class Mapper {
                 .drugIdExt(NullSafe.safeString(drugList.getExt_id()))
                 .quant(NullSafe.safeString(String.valueOf(drugList.getQuant())))
                 .price(NullSafe.safeString(String.valueOf(drugList.getPrice())))
-                .sftp(NullSafe.safeString(drugList.getNameByIdInSftp(drugList.getExt_id())))
-                .drugInfo(NullSafe.safeString(drugList.getDrugInfo()))
                 .build();
     }
 }

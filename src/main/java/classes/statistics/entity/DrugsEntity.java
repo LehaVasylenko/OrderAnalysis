@@ -35,10 +35,4 @@ public class DrugsEntity {
 
     @Column(name = "price")
     private String price;
-
-    @Column(name = "ext_info")
-    private String sftp;
-
-    @Column(name = "drug_info")
-    private String drugInfo;
 }
