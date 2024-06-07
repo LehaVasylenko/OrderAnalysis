@@ -421,3 +421,6 @@
 2024-06-07 19:37:06 INFO  access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1bfafce1] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
 2024-06-07 19:37:08 INFO  GetShops:43 - ShowShops count: 17875
 2024-06-07 19:37:09 INFO  pooling:607 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/postgres]
+2024-06-07 19:41:41 INFO  Configurator:75 - log4j.properties file already exists.
+2024-06-07 19:52:24 INFO  Configurator:75 - log4j.properties file already exists.
+2024-06-07 19:55:20 INFO  Configurator:75 - log4j.properties file already exists.

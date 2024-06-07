@@ -17,11 +17,13 @@ public class Datum {
     private String drugInfo;
 
     public String getNameByIdInSftp(String id) {
-        for (PriceItem item: this.sftp) {
-            if (item.getId().equals(id)) {
-                return item.getName();
+        try {
+            for (PriceItem item : this.sftp) {
+                if (item.getId().equals(id)) {
+                    return item.getName();
+                }
             }
-        }
+        } catch (NullPointerException ignored) {}
         return "No Such prep";
     }
 

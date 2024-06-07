@@ -13,20 +13,20 @@ public class Mapper {
 
     public static OrderEntity orderToEntity (OrderLog order) {
         return OrderEntity.builder()
-                .idOrder(order.getId_order())
-                .idOrderExt(order.getExt_id_order())
-                .idShop(order.getId_shop())
-                .idShopExt(order.getExt_id_shop())
-                .idCorp(GetShops.getInstance().getCorpById(order.getId_shop()))
-                .shipping(order.getShipping())
-                .agent(order.getAgent())
-                .phone(order.getPhone())
+                .idOrder(NullSafe.safeString(order.getId_order()))
+                .idOrderExt(NullSafe.safeString(order.getExt_id_order()))
+                .idShop(NullSafe.safeString(order.getId_shop()))
+                .idShopExt(NullSafe.safeString(order.getExt_id_shop()))
+                .idCorp(NullSafe.safeString(GetShops.getInstance().getCorpById(order.getId_shop())))
+                .shipping(NullSafe.safeString(order.getShipping()))
+                .agent(NullSafe.safeString(order.getAgent()))
+                .phone(NullSafe.safeString(order.getPhone()))
                 .build();
     }
 
     public static DatumEntity datumToEntity (OrderLog order, OrderEntity orderEntity) {
         return DatumEntity.builder()
-                .state(order.getState())
+                .state(NullSafe.safeString(order.getState()))
                 .timestamp(new Date(order.getTimestamp() * 1000L))
                 .order(orderEntity)
                 .build();
@@ -35,12 +35,12 @@ public class Mapper {
     public static DrugsEntity drugsToEntity(Datum drugList, DatumEntity datumEntity) {
         return DrugsEntity.builder()
                 .datum(datumEntity)
-                .drugId(drugList.getId())
-                .drugIdExt(drugList.getExt_id())
-                .quant(String.valueOf(drugList.getQuant()))
-                .price(String.valueOf(drugList.getPrice()))
-                .sftp(drugList.getNameByIdInSftp(drugList.getExt_id()))
-                .drugInfo(drugList.getDrugInfo())
+                .drugId(NullSafe.safeString(drugList.getId()))
+                .drugIdExt(NullSafe.safeString(drugList.getExt_id()))
+                .quant(NullSafe.safeString(String.valueOf(drugList.getQuant())))
+                .price(NullSafe.safeString(String.valueOf(drugList.getPrice())))
+                .sftp(NullSafe.safeString(drugList.getNameByIdInSftp(drugList.getExt_id())))
+                .drugInfo(NullSafe.safeString(drugList.getDrugInfo()))
                 .build();
     }
 }
