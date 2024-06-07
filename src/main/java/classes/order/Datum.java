@@ -16,6 +16,15 @@ public class Datum {
     private long priceTime;
     private String drugInfo;
 
+    public String getNameByIdInSftp(String id) {
+        for (PriceItem item: this.sftp) {
+            if (item.getId().equals(id)) {
+                return item.getName();
+            }
+        }
+        return "No Such prep";
+    }
+
     public Datum(String id, String ext_id, double quant, double price) {
         this.id = id;
         this.ext_id = ext_id;

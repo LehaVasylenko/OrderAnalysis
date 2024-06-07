@@ -232,6 +232,11 @@ public class OrderFilter extends Spec {
                 .collect(Collectors.toList());
     }
 
+    public List<OrderList> getWholeOrdersToCheck() {
+        return this.ordersToCheck;
+    }
+
+
     public List<String> getIgnorable() {
         return ignorable;
     }

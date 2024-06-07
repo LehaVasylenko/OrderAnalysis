@@ -234,4 +234,28 @@ public class OrderLog {
     public int hashCode() {
         return Objects.hash(getId_shop(), getExt_id_shop(), getPhone(), getAgent(), getShipping(), getData());
     }
+
+    @Override
+    public String toString() {
+        return "OrderLog{" +
+                "id_shop='" + id_shop + '\'' +
+                ", ext_id_shop='" + ext_id_shop + '\'' +
+                ", shop_start_time='" + shop_start_time + '\'' +
+                ", shop_finish_time='" + shop_finish_time + '\'' +
+                ", phone='" + phone + '\'' +
+                ", test=" + test +
+                ", msgFlags=" + msgFlags +
+                ", timestamp=" + timestamp +
+                ", agent='" + agent + '\'' +
+                ", id_order='" + id_order + '\'' +
+                ", ext_id_order='" + ext_id_order + '\'' +
+                ", shipping='" + shipping + '\'' +
+                ", delivery_date='" + delivery_date + '\'' +
+                ", delivery_time='" + delivery_time + '\'' +
+                ", state='" + state + '\'' +
+                ", reason='" + reason + '\'' +
+                ", attribute='" + attribute + '\'' +
+                ", data=" + data +
+                '}';
+    }
 }

@@ -1,15 +1,11 @@
-import classes.ExcelAdapter;
-import classes.ExcelWriter;
-import classes.GetOrders;
-import classes.OrderFilter;
+import classes.*;
 import interfaces.IOrders;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import lombok.extern.slf4j.Slf4j;
 import sftpreader.SftpManager;
 import specs.Configurator;
 
+@Slf4j
 public class Main extends Configurator {
-    private static final Logger logger = LoggerFactory.getLogger(Main.class);
 
     public static void main(String[] args) {
         // Record the start time
@@ -22,6 +18,7 @@ public class Main extends Configurator {
         ExcelAdapter adapter = new ExcelAdapter(filter.getOrdersToCheck(), new SftpManager(filter.getDistinctShops()));
         ExcelWriter writer = new ExcelWriter(adapter.getAdaptedOrders());
 
+        Statistics statistics = new Statistics(filter.getWholeOrdersToCheck());
         orders.rememberOrdersNumbers(filter.getToCheck(), filter.getIgnorable());
         // Record the end time
         long endTime = System.currentTimeMillis();
