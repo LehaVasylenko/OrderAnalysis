@@ -31,6 +31,9 @@ public class OrderEntity {
     @Column(name = "corp_id")
     private String idCorp;
 
+    @Column(name = "working_time")
+    private boolean workingTime;
+
     @Column(name = "shipping")
     private String shipping;
 

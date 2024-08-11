@@ -12,7 +12,7 @@ public class Main extends Configurator {
         long startTime = System.currentTimeMillis();
         init();
 
-        IOrders orders = new GetOrders(7);
+        IOrders orders = new GetOrders(12);
         OrderFilter filter = new OrderFilter(orders.getNewOrdersNumbers());
 
         ExcelAdapter adapter = new ExcelAdapter(filter.getOrdersToCheck(), new SftpManager(filter.getDistinctShops()));

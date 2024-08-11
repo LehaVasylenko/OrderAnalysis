@@ -1,22 +1,13 @@
-import classes.DrugsInfoMany;
-import classes.Statistics;
 import classes.order.BookingBody;
-import classes.order.OrderList;
 import classes.order.OrderLog;
-import classes.shops.ShowShops;
 import io.restassured.RestAssured;
-import sftpreader.SftpManager;
 import org.junit.Test;
-import sftpreader.shopPrice.PriceItem;
 import specs.Spec;
 
 import java.io.File;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 import static foldedCreator.Folder.createFolderIfNotExists;
 import static io.restassured.http.ContentType.JSON;
@@ -25,25 +16,9 @@ public class test extends Spec {
     @Test
     public void getDate() {
         String azaza = "240602-145771";
-        OrderLog[] order = getOrderInfo(azaza);
-        for (int i = 0; i < order.length; i++) {
-            order[i].setShopInfo(new ShowShops("1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", 1 ,1, "1", "1", "1", "1", "1", "1", "1", 1.0, 1.0,"1", "1", "1", "1"));
-            for (int j = 0; j < order[i].getData().size(); j++) {
-                PriceItem item = new PriceItem("1", "1", "",1.0, 1, 1, 1, null);
-                order[i].getData().get(j).setSftp(List.of(item));
-            }
-        }
-        OrderList list = new OrderList(order);
-        Statistics stat = new Statistics(List.of(list));
-
-        Map<String, List<OrderLog>> separ = separateByShop(List.of(order));
-        for (String shop : separ.keySet()) {
-            System.out.println("Shop: " + shop);
-            for (OrderLog log : separ.get(shop)) {
-                System.out.println(log);
-            }
-        }
-
+        long start = System.currentTimeMillis();
+        System.out.println(Arrays.toString(getOrderInfo(azaza)));
+        System.out.println("Rest Assured time: " + (System.currentTimeMillis() - start));
     }
 
     public Map<String, List<OrderLog>> separateByShop(List<OrderLog> logs) {

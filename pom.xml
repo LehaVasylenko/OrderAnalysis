@@ -127,7 +127,6 @@
       <version>6.5.2.Final</version>
     </dependency>
 
-
     <dependency>
       <groupId>org.jetbrains</groupId>
       <artifactId>annotations</artifactId>
